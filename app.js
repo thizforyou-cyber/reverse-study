@@ -64,7 +64,7 @@ function showFeedback(choice){const answer=keyOf(current),right=choice===answer,
 function choose(choice){if(answered||!current)return;answered=true;chosenAnswers.set(idOf(current),choice);unattempted.delete(idOf(current));const right=choice===keyOf(current);if(right)correct++;if(!right)mistakes.add(idOf(current));save();[...$("options").children].forEach((b,i)=>{b.disabled=true;if(i===keyOf(current))b.classList.add("correct");else if(i===choice)b.classList.add("wrong")});showFeedback(choice);updateStats()}
 function escapeText(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 $("next").onclick=()=>{if(index<visible.length-1){if(current&&!chosenAnswers.has(idOf(current)))unattempted.add(idOf(current));index++;render()}};
-$("previous").onclick=()=>{if(index>0){index--;render()}};
+$("previous").onclick=()=>{if(index>0){if(current&&!chosenAnswers.has(idOf(current)))unattempted.add(idOf(current));index--;render()}};
 $("bookmark").onclick=()=>{if(!current)return;bookmarks.has(idOf(current))?bookmarks.delete(idOf(current)):bookmarks.add(idOf(current));save();$("bookmark").textContent=bookmarks.has(idOf(current))?"★ Bookmarked":"☆ Bookmark"};
 $("review").onclick=()=>{if(!current)return;reviewSet.has(idOf(current))?reviewSet.delete(idOf(current)):reviewSet.add(idOf(current));$("review").textContent=reviewSet.has(idOf(current))?"★ Marked for Review":"☆ Mark for Review";updateStats()};
 $("search").addEventListener("input",()=>{index=0;render()});$("mode").addEventListener("change",()=>{index=0;render()});
