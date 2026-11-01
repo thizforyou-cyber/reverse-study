@@ -20,9 +20,12 @@ return "https://www.google.com/search?q="+encodeURIComponent(domain+" "+q.questi
 
 function parseMatchQuestion(text){
  const upper=text.toUpperCase();
- const a=upper.lastIndexOf("LIST-I");
- const b=upper.lastIndexOf("LIST-II");
- if(a<0||b<=a)return null;
+ const listIMatches=[...upper.matchAll(/LIST-I(?!I)/g)];
+ const listIIMatches=[...upper.matchAll(/LIST-II(?!I)/g)];
+ if(!listIMatches.length||!listIIMatches.length)return null;
+ const a=listIMatches[listIMatches.length-1].index;
+ const b=listIIMatches[listIIMatches.length-1].index;
+ if(b<=a)return null;
  const intro=text.slice(0,a).replace(/\\s+/g," ").trim();
  const leftText=text.slice(a+6,b).replace(/^\\s*\\([^)]*\\)\\s*/,"").trim();
  const rightText=text.slice(b+7).replace(/^\\s*\\([^)]*\\)\\s*/,"").trim();
