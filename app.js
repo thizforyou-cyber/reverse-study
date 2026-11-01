@@ -31,7 +31,7 @@ function parseMatchQuestion(text){
  const left=split(leftText,false),right=split(rightText,true);
  return left.length&&right.length?{intro,left,right}:null;
 }
-function parseStatementQuestion(text){const re=/(?:^|\\s)([A-E])\\.\\s*/g;const m=[...text.matchAll(re)];if(/LIST-I|LIST-II/i.test(text)||m.length<3)return null;return {prefix:text.slice(0,m[0].index).trim(),items:m.map((x,i)=>({key:x[1],value:text.slice(x.index+x[0].length,i+1<m.length?m[i+1].index:text.length).trim()}))};}
+function parseStatementQuestion(text){const re=/(?:^|\s)([A-E])\.\s*/g;const m=[...text.matchAll(re)];if(/LIST-I|LIST-II/i.test(text)||m.length<3)return null;return {prefix:text.slice(0,m[0].index).trim(),items:m.map((x,i)=>({key:x[1],value:text.slice(x.index+x[0].length,i+1<m.length?m[i+1].index:text.length).trim()}))};}
 function renderQuestionContent(q){
  const host=$("question"),data=parseMatchQuestion(q.question),statements=parseStatementQuestion(q.question);
  host.innerHTML="";
