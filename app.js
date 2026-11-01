@@ -26,11 +26,11 @@ function parseMatchQuestion(text){
  const a=listIMatches[listIMatches.length-1].index;
  const b=listIIMatches[listIIMatches.length-1].index;
  if(b<=a)return null;
- const intro=text.slice(0,a).replace(/\\s+/g," ").trim();
- const leftText=text.slice(a+6,b).replace(/^\\s*\\([^)]*\\)\\s*/,"").trim();
- const rightText=text.slice(b+7).replace(/^\\s*\\([^)]*\\)\\s*/,"").trim();
+ const intro=text.slice(0,a).replace(/\s+/g," ").trim();
+ const leftText=text.slice(a+6,b).replace(/^\s*\([^)]*\)\s*/,"").trim();
+ const rightText=text.slice(b+7).replace(/^\s*\([^)]*\)\s*/,"").trim();
  function split(block,roman){
-  const re=roman?/(?:^|\\s)(IV|VIII|VII|VI|V|III|II|I|IX|X)\\.\\s*/g:/(?:^|\\s)([A-E])\\.\\s*/g;
+  const re=roman?/(?:^|\s)(IV|VIII|VII|VI|V|III|II|I|IX|X)\.\s*/g:/(?:^|\s)([A-E])\.\s*/g;
   const m=[...block.matchAll(re)];
   return m.map((x,i)=>({key:x[1],value:block.slice(x.index+x[0].length,i+1<m.length?m[i+1].index:block.length).trim()})).filter(x=>x.value);
  }
