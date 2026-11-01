@@ -1,5 +1,5 @@
 const $=id=>document.getElementById(id);
-const original=[...(window.QUESTIONS||[])], june=[...(window.JUNE_2026_QUESTIONS||[])];
+const original=typeof QUESTIONS!=="undefined"?[...QUESTIONS]:[], june=typeof JUNE_2026_QUESTIONS!=="undefined"?[...JUNE_2026_QUESTIONS]:[];
 const all=[...original,...june], unitNames=typeof UNIT_TITLES!=="undefined"?UNIT_TITLES:{};
 let pool=[...all],current=null,attempted=0,correct=0,answered=false;
 const bookmarks=new Set(JSON.parse(localStorage.getItem("rs-bookmarks")||"[]").map(String));
