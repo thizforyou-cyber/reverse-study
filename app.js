@@ -37,11 +37,12 @@ function renderQuestionContent(q){
  if(!data){host.className="qtext";host.textContent=q.question;return}
  host.className="qtext match-question";
  if(data.intro){const p=document.createElement("p");p.className="match-instruction";p.textContent=data.intro;host.append(p)}
- const board=document.createElement("div");board.className="match-board";
+ const statementStyle=[...data.left,...data.right].some(item=>item.value.length>58||item.value.split(/\\s+/).length>9);
+ const board=document.createElement("div");board.className="match-board"+(statementStyle?" match-statements":"");
  [["LIST I",data.left],["LIST II",data.right]].forEach(group=>{
   const col=document.createElement("section");col.className="match-column";
   const h=document.createElement("h3");h.textContent=group[0];col.append(h);
-  group[1].forEach(item=>{const row=document.createElement("div");row.className="match-item";const k=document.createElement("b");k.textContent=item.key;const v=document.createElement("span");v.textContent=item.value;row.append(k,v);col.append(row)});
+  group[1].forEach(item=>{const row=document.createElement("div");row.className="match-item";const k=document.createElement("b");k.textContent=item.key+".";const v=document.createElement("span");v.textContent=item.value;row.append(k,v);col.append(row)});
   board.append(col);
  });
  host.append(board);
