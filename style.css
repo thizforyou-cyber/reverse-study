@@ -18,3 +18,11 @@
 .option.correct .pair-chip{background:#dceee0}
 .option.wrong .pair-chip{background:#f4ded8}
 @media(max-width:520px){.match-board{grid-template-columns:1fr;gap:9px}.match-item{padding:9px 11px}.match-instruction{font-size:15px}}
+
+.statement-question{white-space:normal}
+.statement-prompt{margin:0 0 14px;font:700 17px/1.55 Manrope,sans-serif;color:#25372e}
+.statement-list{display:grid;grid-template-columns:1fr;gap:9px}
+.statement-row{display:grid;grid-template-columns:34px minmax(0,1fr);gap:11px;align-items:start;padding:13px 14px;border:1px solid #e5e8df;border-radius:9px;background:#fbfcf8;font:500 14px/1.6 'DM Sans',sans-serif}
+.statement-row b{display:grid;place-items:center;min-height:27px;border-radius:7px;background:#f0e8d8;color:#886633;font-size:12px}
+.statement-row span{overflow-wrap:anywhere}
+@media(max-width:560px){.statement-prompt{font-size:15px}.statement-row{padding:11px 10px;font-size:13px;grid-template-columns:29px minmax(0,1fr)}}
