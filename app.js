@@ -56,7 +56,7 @@ function renderOptionContent(button,text){
  button.append(label,grid);
 }
 
-function updateStats(){const n=chosenAnswers.size;$("progress").textContent=n;$("accuracy").textContent=n?Math.round(correct/n*100)+"%":"—";$("unattempted").textContent=unattempted.size;$("reviewCount").textContent=reviewSet.size}
+function updateStats(){const n=chosenAnswers.size,right=[...chosenAnswers].filter(([id,choice])=>{const q=questions.find(x=>idOf(x)===id);return q&&choice===keyOf(q)}).length;$("progress").textContent=n;$("accuracy").textContent=n?Math.round(right/n*100)+"%":"—";$("unattempted").textContent=questions.length-n;$("correctCount").textContent=right;$("wrongCount").textContent=n-right;$("reviewCount").textContent=reviewSet.size}
 function render(){
  visible=filtered();$("count").textContent=visible.length;
  if(!visible.length){current=null;$("qid").textContent="";$("question").textContent="No matching June 2026 questions. Change your search or filter.";$("options").innerHTML="";$("feedback").hidden=true;$("verify").hidden=true;$("next").disabled=true;$("previous").disabled=true;$("bookmark").disabled=true;$("review").disabled=true;return}
@@ -73,5 +73,6 @@ $("previous").onclick=()=>{if(index>0){if(current&&!chosenAnswers.has(idOf(curre
 $("bookmark").onclick=()=>{if(!current)return;bookmarks.has(idOf(current))?bookmarks.delete(idOf(current)):bookmarks.add(idOf(current));save();$("bookmark").textContent=bookmarks.has(idOf(current))?"★ Bookmarked":"☆ Bookmark"};
 $("review").onclick=()=>{if(!current)return;reviewSet.has(idOf(current))?reviewSet.delete(idOf(current)):reviewSet.add(idOf(current));$("review").textContent=reviewSet.has(idOf(current))?"★ Marked for Review":"☆ Mark for Review";updateStats()};
 $("search").addEventListener("input",()=>{index=0;render()});$("mode").addEventListener("change",()=>{index=0;render()});
+$("reset").onclick=()=>{if(!window.confirm("Start again? This will clear all answers, progress, wrong-answer history and review marks. Bookmarks will be kept."))return;chosenAnswers.clear();unattempted.clear();reviewSet.clear();mistakes.clear();correct=0;index=0;localStorage.removeItem("june26-mistakes");$("search").value="";$("mode").value="all";save();render()};
 save();render();
 if("serviceWorker"in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
