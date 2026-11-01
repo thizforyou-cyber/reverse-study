@@ -7,7 +7,7 @@ const mistakes=new Set(JSON.parse(localStorage.getItem("june26-mistakes")||"[]")
 const keyOf=q=>typeof q.answer==="number"?q.answer-1:String(q.answer).toUpperCase().charCodeAt(0)-65;
 const idOf=q=>String(q.id);
 function save(){localStorage.setItem("june26-bookmarks",JSON.stringify([...bookmarks]));localStorage.setItem("june26-mistakes",JSON.stringify([...mistakes]));$("saved").textContent=bookmarks.size}
-function filtered(){const term=$("search").value.trim().toLowerCase(),mode=$("mode").value;return questions.filter(q=>(!term||(q.question+" "+q.options.join(" ")).toLowerCase().includes(term))&&(mode==="all"||(mode==="bookmarks"?bookmarks.has(idOf(q)):mistakes.has(idOf(q)))))}
+function filtered(){const term=$("search").value.trim().toLowerCase(),mode=$("mode").value;return questions.filter(q=>{const id=idOf(q),has=chosenAnswers.has(id),choice=chosenAnswers.get(id),isCorrect=has&&choice===keyOf(q),isWrong=has&&!isCorrect;const status=mode==="unattempted"?!has:mode==="correct"?isCorrect:mode==="wrong"?isWrong:mode==="bookmarks"?bookmarks.has(id):mode==="mistakes"?mistakes.has(id):true;return status&&(!term||(q.question+" "+q.options.join(" ")).toLowerCase().includes(term))})}
 function google(q,extra=""){return "https://www.google.com/search?q="+encodeURIComponent("UGC NET Public Administration June 2026 "+q.question+" "+extra)}
 function official(q){const t=q.question.toLowerCase();let domain="site:egyankosh.ac.in OR site:ndl.iitkgp.ac.in";
 if(/article|constitution|governor|parliament|cag|panchayat|commissioner/.test(t))domain="site:indiacode.nic.in OR site:legislative.gov.in";
