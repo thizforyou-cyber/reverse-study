@@ -1,17 +1,19 @@
-# UGC NET Public Administration — Reverse Study
+# Public Administration — Visual Second Brain
 
-A responsive, exam-focused practice website for UGC NET/JRF Public Administration.
+A clean, visual study space for UGC NET/JRF Public Administration.
 
-## Features
-- 1,000-question bank copied from the existing study project without changing question text, options, IDs, unit labels, or answer keys
-- Unit-wise filtering, search, and instant feedback
-- Reverse Study explanations: understand the correct option and review why the distractors may appear
-- Bookmarks and mistake review saved in the browser
-- Forest-green and cream academic interface
-- Responsive desktop/mobile layout and installable PWA support
+## Study areas
+- **PYQ Practice:** Original 1,000-question bank preserved, plus the separate June 2026 set (Q.51–Q.140; 90 questions).
+- **Reverse Study:** instant answer feedback, bookmarks and mistake review.
+- **Answer verification:** each attempted question provides a question-specific Google search and a second search targeted to likely official or academic sources. These are research links, not an official answer-key endorsement.
+- **Memory Studio:** concise recall cards, visual sequences and mnemonic cues.
+- **Thinker Time Machine:** scholar cards with key ideas, works and topic-specific links.
+- **Second Brain:** topic pathways for theories, constitutional provisions, committees, institutions and schemes.
+
+## Question provenance
+The June 2026 set is imported from `2026 JUNE.docx`, Q.51–Q.140. Original question numbering, options and supplied answer keys are retained. The document does not provide verified unit labels or detailed explanations for each item, so those are not fabricated. Always verify disputed or time-sensitive facts against original acts, official reports, government portals or standard textbooks.
+
+The original 1,000-question bank is kept in `questions.js`; the additional set is stored separately in `june2026.js`.
 
 ## Run locally
-Open `index.html` in a browser. For PWA installation, serve the folder over HTTPS (GitHub Pages works).
-
-## Question-bank note
-The imported question bank is preserved as supplied. Explanations are learning prompts and should be checked against reliable sources; no unverified year labels are assigned to questions.
+Open `index.html` in a browser. For PWA installation and service-worker caching, serve the folder over HTTPS (GitHub Pages works).
