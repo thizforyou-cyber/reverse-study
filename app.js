@@ -19,18 +19,20 @@ else if(/budget|finance commission|tax|public account/.test(t))domain="site:indi
 return "https://www.google.com/search?q="+encodeURIComponent(domain+" "+q.question)}
 
 function parseMatchQuestion(text){
- const a=text.search(/LIST-I/i),b=text.search(/LIST-II/i);
- if(a<0||b<a)return null;
- const intro=text.slice(0,a).trim();
- const leftText=text.slice(a+6,b).replace(/^\s*\([^)]*\)\s*/,"").trim();
- const rightText=text.slice(b+6).replace(/^\s*\([^)]*\)\s*/,"").trim();
+ const upper=text.toUpperCase();
+ const a=upper.lastIndexOf("LIST-I");
+ const b=upper.lastIndexOf("LIST-II");
+ if(a<0||b<=a)return null;
+ const intro=text.slice(0,a).replace(/\\s+/g," ").trim();
+ const leftText=text.slice(a+6,b).replace(/^\\s*\\([^)]*\\)\\s*/,"").trim();
+ const rightText=text.slice(b+7).replace(/^\\s*\\([^)]*\\)\\s*/,"").trim();
  function split(block,roman){
-  const re=roman?/(?:^|\s)(I{1,3}|IV|V|VI|VII|VIII|IX|X)\.\s*/g:/(?:^|\s)([A-E])\.\s*/g;
+  const re=roman?/(?:^|\\s)(IV|VIII|VII|VI|V|III|II|I|IX|X)\\.\\s*/g:/(?:^|\\s)([A-E])\\.\\s*/g;
   const m=[...block.matchAll(re)];
-  return m.map((x,i)=>({key:x[1],value:block.slice(x.index+x[0].length,i+1<m.length?m[i+1].index:block.length).trim()}));
+  return m.map((x,i)=>({key:x[1],value:block.slice(x.index+x[0].length,i+1<m.length?m[i+1].index:block.length).trim()})).filter(x=>x.value);
  }
  const left=split(leftText,false),right=split(rightText,true);
- return left.length&&right.length?{intro,left,right}:null;
+ return left.length>=2&&right.length>=2?{intro,left,right}:null;
 }
 function parseStatementQuestion(text){const re=/(?:^|\s)([A-E])\.\s*/g;const m=[...text.matchAll(re)];if(/LIST-I|LIST-II/i.test(text)||m.length<3)return null;return {prefix:text.slice(0,m[0].index).trim(),items:m.map((x,i)=>({key:x[1],value:text.slice(x.index+x[0].length,i+1<m.length?m[i+1].index:text.length).trim()}))};}
 function renderQuestionContent(q){
