@@ -16,9 +16,49 @@ else if(/administrative reforms|arc|committee|commission/.test(t))domain="site:d
 else if(/disaster/.test(t))domain="site:ndma.gov.in OR site:mha.gov.in";
 else if(/budget|finance commission|tax|public account/.test(t))domain="site:indiabudget.gov.in OR site:cag.gov.in";
 return "https://www.google.com/search?q="+encodeURIComponent(domain+" "+q.question)}
+
+function parseMatchQuestion(text){
+ const a=text.search(/LIST-I/i),b=text.search(/LIST-II/i);
+ if(a<0||b<a)return null;
+ const intro=text.slice(0,a).trim();
+ const leftText=text.slice(a+6,b).replace(/^\s*\([^)]*\)\s*/,"").trim();
+ const rightText=text.slice(b+6).replace(/^\s*\([^)]*\)\s*/,"").trim();
+ function split(block,roman){
+  const re=roman?/(?:^|\s)(I{1,3}|IV|V|VI|VII|VIII|IX|X)\.\s*/g:/(?:^|\s)([A-E])\.\s*/g;
+  const m=[...block.matchAll(re)];
+  return m.map((x,i)=>({key:x[1],value:block.slice(x.index+x[0].length,i+1<m.length?m[i+1].index:block.length).trim()}));
+ }
+ const left=split(leftText,false),right=split(rightText,true);
+ return left.length&&right.length?{intro,left,right}:null;
+}
+function renderQuestionContent(q){
+ const host=$("question"),data=parseMatchQuestion(q.question);
+ host.innerHTML="";
+ if(!data){host.className="qtext";host.textContent=q.question;return}
+ host.className="qtext match-question";
+ if(data.intro){const p=document.createElement("p");p.className="match-instruction";p.textContent=data.intro;host.append(p)}
+ const board=document.createElement("div");board.className="match-board";
+ [["LIST I",data.left],["LIST II",data.right]].forEach(group=>{
+  const col=document.createElement("section");col.className="match-column";
+  const h=document.createElement("h3");h.textContent=group[0];col.append(h);
+  group[1].forEach(item=>{const row=document.createElement("div");row.className="match-item";const k=document.createElement("b");k.textContent=item.key;const v=document.createElement("span");v.textContent=item.value;row.append(k,v);col.append(row)});
+  board.append(col);
+ });
+ host.append(board);
+ const hint=document.createElement("div");hint.className="match-hint";hint.textContent="Choose the correct combination below.";host.append(hint);
+}
+function renderOptionContent(button,text){
+ const pairs=[...text.matchAll(/([A-E])\s*[-–]\s*(I{1,3}|IV|V|VI|VII|VIII|IX|X)\b/g)];
+ if(pairs.length<2){button.append(document.createTextNode(text));return}
+ const label=document.createElement("span");label.className="pair-label";label.textContent="MATCHING COMBINATION";
+ const grid=document.createElement("span");grid.className="pair-grid";
+ pairs.forEach(m=>{const chip=document.createElement("span");chip.className="pair-chip";chip.textContent=m[1]+" ↔ "+m[2];grid.append(chip)});
+ button.append(label,grid);
+}
+
 function render(){visible=filtered();$("count").textContent=visible.length;if(!visible.length){current=null;$("qid").textContent="";$("question").textContent="No matching June 2026 questions. Change your search or filter.";$("options").innerHTML="";$("feedback").hidden=true;$("verify").hidden=true;$("next").disabled=true;$("previous").disabled=true;$("bookmark").disabled=true;return}
-index=Math.min(index,visible.length-1);current=visible[index];answered=false;$("bookmark").disabled=false;$("qid").textContent="QUESTION "+current.sourceQuestion;$("question").textContent=current.question;$("options").innerHTML="";$("feedback").hidden=true;$("verify").hidden=true;$("next").disabled=true;$("previous").disabled=index===0;$("bookmark").textContent=bookmarks.has(idOf(current))?"★ Bookmarked":"☆ Bookmark";
-current.options.forEach((opt,i)=>{const b=document.createElement("button");b.className="option";const letter=String.fromCharCode(65+i);b.innerHTML='<span class="letter">'+letter+'.</span><span></span>';b.querySelector("span:last-child").textContent=opt;b.onclick=()=>choose(i);$("options").append(b)})}
+index=Math.min(index,visible.length-1);current=visible[index];answered=false;$("bookmark").disabled=false;$("qid").textContent="QUESTION "+current.sourceQuestion;renderQuestionContent(current);$("options").innerHTML="";$("feedback").hidden=true;$("verify").hidden=true;$("next").disabled=true;$("previous").disabled=index===0;$("bookmark").textContent=bookmarks.has(idOf(current))?"★ Bookmarked":"☆ Bookmark";
+current.options.forEach((opt,i)=>{const b=document.createElement("button");b.className="option";const lab=document.createElement("span");lab.className="letter";lab.textContent=String.fromCharCode(65+i)+".";b.append(lab);renderOptionContent(b,opt);b.onclick=()=>choose(i);$("options").append(b)})}
 function choose(choice){if(answered||!current)return;answered=true;attempted++;const answer=keyOf(current),right=choice===answer;if(right)correct++;else mistakes.add(idOf(current));save();[...$("options").children].forEach((b,i)=>{b.disabled=true;if(i===answer)b.classList.add("correct");else if(i===choice)b.classList.add("wrong")});$("progress").textContent=attempted;$("accuracy").textContent=Math.round(correct/attempted*100)+"%";const letter=String.fromCharCode(65+answer);$("feedback").innerHTML='<h3>'+(right?"Correct":"Review this one")+'</h3><p><b>Answer key supplied in the source:</b> '+letter+'. '+escapeText(current.options[answer])+'</p><p>The source document does not include a detailed explanation for this question. Use the study links below to read the related Public Administration concept and check the answer against a reliable source.</p>';$("feedback").hidden=false;$("verify").innerHTML='<b>Study and verify this question</b><a target="_blank" rel="noopener" href="'+google(current,"concept explanation")+'">Study this question and its related concept ↗</a><a target="_blank" rel="noopener" href="'+official(current)+'">Search official / academic sources ↗</a><small>The supplied answer key is reproduced as-is; these searches are aids for independent verification, not proof that the key is official.</small>';$("verify").hidden=false;$("next").disabled=false}
 function escapeText(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 $("next").onclick=()=>{if(index<visible.length-1){index++;render()}};
