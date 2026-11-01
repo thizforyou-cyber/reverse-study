@@ -39,3 +39,17 @@
 @media(max-width:560px){.match-board{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.match-cell{grid-template-columns:24px minmax(0,1fr);gap:6px;padding:9px 7px;font-size:11px}.match-head{padding:10px 8px;font-size:10px}.side-actions{display:grid;grid-template-columns:1fr 1fr}.side-actions button{font-size:11px;padding:10px 8px}}
 
 .reset-button{border:1px solid #e2c9c1;border-radius:8px;padding:11px 14px;background:#fbefeb;color:#984b3d;font:700 12px 'DM Sans';cursor:pointer}.reset-button:hover{background:#f5e2dc}.stats div{min-width:58px}
+
+.question-navigator{background:#fffefa;border:1px solid var(--line);border-radius:12px;padding:15px;margin:0 0 15px}
+.navigator-title{font-size:10px;letter-spacing:1.3px;font-weight:800;color:#718078;margin:0 0 11px}
+.question-number-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(42px,1fr));gap:7px}
+.question-jump{min-height:36px;border:1px solid #dfe6dc;border-radius:7px;background:#f4f6f0;color:#365344;font:700 11px 'DM Sans';cursor:pointer}
+.question-jump:hover{border-color:#718e7c;transform:translateY(-1px)}
+.question-jump.active{outline:2px solid var(--green);outline-offset:1px}
+.question-jump.is-correct{background:#e4f1e6;border-color:#9bc5a2;color:#28623b}
+.question-jump.is-wrong{background:#f8e8e4;border-color:#dba79b;color:#9c4435}
+.question-jump.is-unattempted{background:#f4f6f0}
+.navigator-legend{display:flex;gap:15px;flex-wrap:wrap;margin-top:12px;color:var(--muted);font-size:10px}
+.navigator-legend span{display:flex;align-items:center;gap:5px}
+.legend-dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.correct-dot{background:#65a476}.wrong-dot{background:#c87868}.pending-dot{background:#c8cfc5}
