@@ -31,10 +31,11 @@ function parseMatchQuestion(text){
  const left=split(leftText,false),right=split(rightText,true);
  return left.length&&right.length?{intro,left,right}:null;
 }
+function parseStatementQuestion(text){const re=/(?:^|\\s)([A-E])\\.\\s*/g;const m=[...text.matchAll(re)];if(/LIST-I|LIST-II/i.test(text)||m.length<3)return null;return {prefix:text.slice(0,m[0].index).trim(),items:m.map((x,i)=>({key:x[1],value:text.slice(x.index+x[0].length,i+1<m.length?m[i+1].index:text.length).trim()}))};}
 function renderQuestionContent(q){
- const host=$("question"),data=parseMatchQuestion(q.question);
+ const host=$("question"),data=parseMatchQuestion(q.question),statements=parseStatementQuestion(q.question);
  host.innerHTML="";
- if(!data){host.className="qtext";host.textContent=q.question;return}
+ if(!data&&statements){host.className="qtext statement-question";const p=document.createElement("p");p.className="statement-prompt";p.textContent=statements.prefix;host.append(p);const list=document.createElement("div");list.className="statement-list";statements.items.forEach(item=>{const row=document.createElement("div");row.className="statement-row";const k=document.createElement("b");k.textContent=item.key+".";const v=document.createElement("span");v.textContent=item.value;row.append(k,v);list.append(row)});host.append(list);return}if(!data){host.className="qtext";host.textContent=q.question;return}
  host.className="qtext match-question";
  if(data.intro){const p=document.createElement("p");p.className="match-instruction";p.textContent=data.intro;host.append(p)}
  const statementStyle=[...data.left,...data.right].some(item=>item.value.length>58||item.value.split(/\\s+/).length>9);
