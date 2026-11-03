@@ -95,13 +95,15 @@ function showFeedback(choice){
  }
  const letter=String.fromCharCode(65+answer);
  const pending=analysis&&analysis.status==="Verification pending";
+ const testbookMarked=!!(analysis&&/Testbook/i.test(analysis.status));
  $("feedback").innerHTML=pending
   ?'<h3>Answer key not verified yet</h3><p><b>Provisional answer from the imported key:</b> '+letter+'. '+escapeText(current.options[answer])+'</p><p>This answer has not yet been checked against reliable references. Treat it as tentative, not as a confirmed correct answer.</p>'
-  :'<h3>'+(right?"Correct":"Review this one")+'</h3><p><b>Independently verified answer:</b> '+letter+'. '+escapeText(current.options[answer])+'</p>';
+  :'<h3>'+(right?"Correct":"Review this one")+'</h3><p><b>'+(testbookMarked?"Testbook's marked answer:":"Answer used for scoring:")+'</b> '+letter+'. '+escapeText(current.options[answer])+'</p>';
  if(analysis){
   const section=document.createElement("section");section.className="option-analysis";
   const heading=document.createElement("h4");heading.textContent=pending?"Verification status":"Analysis of all four options";section.append(heading);
   const status=document.createElement("p");status.className="analysis-status";status.textContent=pending?"Awaiting source check":analysis.status;section.append(status);
+  if(!pending&&testbookMarked&&/conflict|different attribution|omitted committee/i.test(analysis.status)){const warning=document.createElement("p");warning.className="analysis-basis";warning.textContent="Testbook discrepancy: this quiz follows the answer shown in Testbook’s answer heading. Its detailed explanation or another cited source gives a different account. Open the Testbook reference below to compare.";section.append(warning)}
   if(pending){
    const note=document.createElement("p");note.className="analysis-basis";note.textContent="Option-by-option explanations will be added after this question is checked. I’m not marking the other options wrong without evidence.";section.append(note)
   }else{
