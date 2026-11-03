@@ -67,7 +67,52 @@ function render(){
  $("verify").innerHTML='<b>Want to check this question in detail?</b><a target="_blank" rel="noopener" href="'+google(current,"answer explanation sources")+'">Search this exact question and all four options on Google ↗</a><small>Opens Google in a new tab so you can compare explanations and sources yourself.</small>';$("verify").hidden=false;
  if(answered){const choice=chosenAnswers.get(idOf(current));[...$("options").children].forEach((b,i)=>{b.disabled=true;if(i===keyOf(current))b.classList.add("correct");else if(i===choice)b.classList.add("wrong")});showFeedback(choice)}updateStats();
 }
-function showFeedback(choice){const answer=keyOf(current),right=choice===answer,analysis=current.analysis||null;if(answer<0){$("feedback").innerHTML="<h3>Question flagged — no unique answer</h3><p>This question has been excluded from accuracy scoring because the available options do not support one defensible answer.</p>";if(analysis){const section=document.createElement("section");section.className="option-analysis";const heading=document.createElement("h4");heading.textContent="Analysis of all four options";section.append(heading);const status=document.createElement("p");status.className="analysis-status";status.textContent=analysis.status;section.append(status);const basis=document.createElement("p");basis.className="analysis-basis";basis.textContent=analysis.basis;section.append(basis);const list=document.createElement("ol");list.className="analysis-options";analysis.options.forEach((detail,i)=>{const item=document.createElement("li");const label=document.createElement("b");label.textContent=String.fromCharCode(65+i)+". ";item.append(label,document.createTextNode(detail));list.append(item)});section.append(list);(analysis.sources||[]).forEach(source=>{const a=document.createElement("a");a.href=source.url;a.target="_blank";a.rel="noopener";a.textContent=source.label+" ↗";section.append(a)});$("feedback").append(section)}$("feedback").hidden=false;$("verify").innerHTML="<small>This item is flagged for correction. No single answer is being scored.</small>";$("verify").hidden=false;return}const letter=String.fromCharCode(65+answer);$("feedback").innerHTML='<h3>'+(right?"Correct":"Review this one")+'</h3><p><b>Independently reviewed answer:</b> '+letter+'. '+escapeText(current.options[answer])+'</p><p>The answer analysis below distinguishes independently checked explanations from questions still awaiting verification.</p>';if(analysis){const section=document.createElement("section");section.className="option-analysis";const heading=document.createElement("h4");heading.textContent="Analysis of all four options";section.append(heading);const status=document.createElement("p");status.className="analysis-status";status.textContent=analysis.status;section.append(status);const basis=document.createElement("p");basis.className="analysis-basis";basis.textContent=analysis.basis;section.append(basis);const list=document.createElement("ol");list.className="analysis-options";analysis.options.forEach((detail,i)=>{const item=document.createElement("li");const label=document.createElement("b");label.textContent=String.fromCharCode(65+i)+". ";item.append(label,document.createTextNode(detail));list.append(item)});section.append(list);if(analysis.sources&&analysis.sources.length){const refs=document.createElement("div");refs.className="analysis-sources";const label=document.createElement("b");label.textContent="Sources to verify";refs.append(label);analysis.sources.forEach(source=>{const link=document.createElement("a");link.href=source.url;link.target="_blank";link.rel="noopener";link.textContent=source.label+" ↗";refs.append(link)});section.append(refs)}$("feedback").append(section)}$("feedback").hidden=false;$("verify").innerHTML='<b>Study and verify this question</b><a target="_blank" rel="noopener" href="'+google(current,"concept explanation")+'">Study this question and its related concept ↗</a><a target="_blank" rel="noopener" href="'+official(current)+'">Search official / academic sources ↗</a><small>Only answers explicitly marked independently verified have been checked against the listed references. The imported answer key is not treated as official NTA confirmation.</small>';$("verify").hidden=false}
+function showFeedback(choice){
+ const answer=keyOf(current),right=choice===answer,analysis=current.analysis||null;
+ if(answer<0){
+  $("feedback").innerHTML="<h3>Question needs correction</h3><p>This question has no single defensible answer in its current form, so it is excluded from your accuracy score.</p>";
+  if(analysis){
+   const section=document.createElement("section");section.className="option-analysis";
+   const heading=document.createElement("h4");heading.textContent="Why this question is flagged";section.append(heading);
+   const basis=document.createElement("p");basis.className="analysis-basis";basis.textContent=analysis.basis;section.append(basis);
+   const list=document.createElement("ol");list.className="analysis-options";
+   analysis.options.forEach((detail,i)=>{const item=document.createElement("li");const label=document.createElement("b");label.textContent=String.fromCharCode(65+i)+". ";item.append(label,document.createTextNode(detail));list.append(item)});
+   section.append(list);
+   (analysis.sources||[]).forEach(source=>{const a=document.createElement("a");a.href=source.url;a.target="_blank";a.rel="noopener";a.textContent=source.label+" ↗";section.append(a)});
+   $("feedback").append(section)
+  }
+  $("feedback").hidden=false;$("verify").innerHTML="<small>This question is excluded from scoring until its wording or options are corrected.</small>";$("verify").hidden=false;return
+ }
+ const letter=String.fromCharCode(65+answer);
+ const pending=analysis&&analysis.status==="Verification pending";
+ $("feedback").innerHTML=pending
+  ?'<h3>Answer key not verified yet</h3><p><b>Provisional answer from the imported key:</b> '+letter+'. '+escapeText(current.options[answer])+'</p><p>This answer has not yet been checked against reliable references. Treat it as tentative, not as a confirmed correct answer.</p>'
+  :'<h3>'+(right?"Correct":"Review this one")+'</h3><p><b>Independently verified answer:</b> '+letter+'. '+escapeText(current.options[answer])+'</p>';
+ if(analysis){
+  const section=document.createElement("section");section.className="option-analysis";
+  const heading=document.createElement("h4");heading.textContent=pending?"Verification status":"Analysis of all four options";section.append(heading);
+  const status=document.createElement("p");status.className="analysis-status";status.textContent=pending?"Awaiting source check":analysis.status;section.append(status);
+  if(pending){
+   const note=document.createElement("p");note.className="analysis-basis";note.textContent="Option-by-option explanations will be added after this question is checked. I’m not marking the other options wrong without evidence.";section.append(note)
+  }else{
+   const basis=document.createElement("p");basis.className="analysis-basis";basis.textContent=analysis.basis;section.append(basis);
+   const list=document.createElement("ol");list.className="analysis-options";
+   analysis.options.forEach((detail,i)=>{const item=document.createElement("li");const label=document.createElement("b");label.textContent=String.fromCharCode(65+i)+". ";item.append(label,document.createTextNode(detail));list.append(item)});
+   section.append(list)
+  }
+  if(analysis.sources&&analysis.sources.length){
+   const refs=document.createElement("div");refs.className="analysis-sources";const label=document.createElement("b");label.textContent="References";refs.append(label);
+   analysis.sources.forEach(source=>{const link=document.createElement("a");link.href=source.url;link.target="_blank";link.rel="noopener";link.textContent=source.label+" ↗";refs.append(link)});
+   section.append(refs)
+  }
+  $("feedback").append(section)
+ }
+ $("feedback").hidden=false;
+ $("verify").innerHTML=pending
+  ?'<b>Check this question yourself</b><a target="_blank" rel="noopener" href="'+google(current,"answer explanation sources")+'">Search the exact question and all four options on Google ↗</a><a target="_blank" rel="noopener" href="'+official(current)+'">Search official / academic sources ↗</a><small>Your selected answer is recorded for practice, but this question is not yet independently verified.</small>'
+  :'<b>Study and verify this question</b><a target="_blank" rel="noopener" href="'+google(current,"concept explanation")+'">Study this question and its related concept ↗</a><a target="_blank" rel="noopener" href="'+official(current)+'">Search official / academic sources ↗</a><small>Only answers explicitly marked independently verified have been checked against the listed references. The imported answer key is not treated as official NTA confirmation.</small>';
+ $("verify").hidden=false
+}
 function choose(choice){if(answered||!current)return;answered=true;chosenAnswers.set(idOf(current),choice);unattempted.delete(idOf(current));const right=keyOf(current)>=0&&choice===keyOf(current);if(right)correct++;if(keyOf(current)>=0&&!right)mistakes.add(idOf(current));save();[...$("options").children].forEach((b,i)=>{b.disabled=true;if(i===keyOf(current))b.classList.add("correct");else if(i===choice)b.classList.add("wrong")});showFeedback(choice);updateStats()}
 function escapeText(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 $("next").onclick=()=>{if(index<visible.length-1){if(current&&!chosenAnswers.has(idOf(current)))unattempted.add(idOf(current));index++;render()}};
