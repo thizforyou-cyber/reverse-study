@@ -57,7 +57,7 @@ function renderOptionContent(button,text){
 }
 
 function updateStats(){const scored=[...chosenAnswers].filter(([id])=>{const q=questions.find(x=>idOf(x)===id);return q&&keyOf(q)>=0});const n=scored.length,right=scored.filter(([id,choice])=>{const q=questions.find(x=>idOf(x)===id);return q&&choice===keyOf(q)}).length;$("progress").textContent=chosenAnswers.size;$("accuracy").textContent=n?Math.round(right/n*100)+"%":"—";$("unattempted").textContent=questions.length-chosenAnswers.size;$("correctCount").textContent=right;$("wrongCount").textContent=n-right;$("reviewCount").textContent=reviewSet.size}
-function renderQuestionNavigator(){const host=$("questionNavigator");host.innerHTML="";const title=document.createElement("div");title.className="navigator-title";title.textContent="TAP A QUESTION TO OPEN · "+visible.length;host.append(title);const grid=document.createElement("div");grid.className="question-number-grid";visible.forEach((q,i)=>{const id=idOf(q),has=chosenAnswers.has(id),right=has&&chosenAnswers.get(id)===keyOf(q),wrong=has&&!right;const b=document.createElement("button");b.type="button";b.className="question-jump"+(i===index?" active":"")+(right?" is-correct":wrong?" is-wrong":" is-unattempted");b.textContent=q.sourceQuestion;b.title="Open Question "+q.sourceQuestion+(right?" · Correct":wrong?" · Wrong":" · Unattempted");b.onclick=()=>{index=i;render();$("question").scrollIntoView({behavior:"smooth",block:"start"})};grid.append(b)});host.append(grid)}
+function renderQuestionNavigator(){const host=$("questionNavigator");host.innerHTML="";const title=document.createElement("div");title.className="navigator-title";title.textContent="TAP A QUESTION TO OPEN · "+visible.length;host.append(title);const grid=document.createElement("div");grid.className="question-number-grid";visible.forEach((q,i)=>{const id=idOf(q),has=chosenAnswers.has(id),right=has&&chosenAnswers.get(id)===keyOf(q),wrong=has&&keyOf(q)>=0&&!right;const b=document.createElement("button");b.type="button";b.className="question-jump"+(i===index?" active":"")+(right?" is-correct":wrong?" is-wrong":" is-unattempted");b.textContent=q.sourceQuestion;b.title="Open Question "+q.sourceQuestion+(right?" · Correct":wrong?" · Wrong":" · Unattempted");b.onclick=()=>{index=i;render();$("question").scrollIntoView({behavior:"smooth",block:"start"})};grid.append(b)});host.append(grid)}
 function render(){
  visible=filtered();$("count").textContent=visible.length;renderQuestionNavigator();
  if(!visible.length){current=null;$("qid").textContent="";$("question").textContent="No matching June 2026 questions. Change your search or filter.";$("options").innerHTML="";$("feedback").hidden=true;$("verify").hidden=true;$("next").disabled=true;$("previous").disabled=true;$("bookmark").disabled=true;$("review").disabled=true;return}
@@ -65,10 +65,20 @@ function render(){
  $("bookmark").textContent=bookmarks.has(idOf(current))?"★ Bookmarked":"☆ Bookmark";$("review").textContent=reviewSet.has(idOf(current))?"★ Marked for Review":"☆ Mark for Review";
  current.options.forEach((opt,i)=>{const b=document.createElement("button");b.className="option";const lab=document.createElement("span");lab.className="letter";lab.textContent=String.fromCharCode(65+i)+".";b.append(lab);renderOptionContent(b,opt);b.onclick=()=>choose(i);$("options").append(b)});
  $("verify").innerHTML='<b>Want to check this question in detail?</b><a target="_blank" rel="noopener" href="'+google(current,"answer explanation sources")+'">Search this exact question and all four options on Google ↗</a><small>Opens Google in a new tab so you can compare explanations and sources yourself.</small>';$("verify").hidden=false;
- if(answered){const choice=chosenAnswers.get(idOf(current));[...$("options").children].forEach((b,i)=>{b.disabled=true;if(i===keyOf(current))b.classList.add("correct");else if(i===choice)b.classList.add("wrong")});showFeedback(choice)}updateStats();
+ if(answered){const choice=chosenAnswers.get(idOf(current));[...$("options").children].forEach((b,i)=>{b.disabled=true;if(keyOf(current)>=0){if(i===keyOf(current))b.classList.add("correct");else if(i===choice)b.classList.add("wrong")}});showFeedback(choice)}updateStats();
 }
 function showFeedback(choice){
  const answer=keyOf(current),right=choice===answer,analysis=current.analysis||null;
+ if(analysis&&analysis.status==="Verification pending"){
+  $("feedback").innerHTML="<h3>Answer key withheld pending verification</h3><p>The imported answer has been removed because it has not yet been confirmed. Your selection is saved for practice, but this question will not be marked right or wrong or counted in your score.</p>";
+  const section=document.createElement("section");section.className="option-analysis";
+  const heading=document.createElement("h4");heading.textContent="Verification status";section.append(heading);
+  const status=document.createElement("p");status.className="analysis-status";status.textContent="Awaiting reliable source check";section.append(status);
+  const note=document.createElement("p");note.className="analysis-basis";note.textContent="The correct answer and explanations for all four options will appear here after the question is checked against reliable references.";section.append(note);
+  $("feedback").append(section);$("feedback").hidden=false;
+  $("verify").innerHTML=`<b>Check the question yourself</b><a target="_blank" rel="noopener" href="${google(current,"answer explanation sources")}">Search this exact question and all four options on Google ↗</a><a target="_blank" rel="noopener" href="${official(current)}">Search official / academic sources ↗</a><small>No provisional answer is being used for scoring.</small>`;
+  $("verify").hidden=false;return
+ }
  if(answer<0){
   $("feedback").innerHTML="<h3>Question needs correction</h3><p>This question has no single defensible answer in its current form, so it is excluded from your accuracy score.</p>";
   if(analysis){
