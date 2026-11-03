@@ -43,13 +43,13 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 52,
     "unit": null,
     "analysis": {
-      "status": "Testbook cross-checked",
-      "basis": "The official establishment dates give this order: National Commission for Women (31 January 1992), National Commission for Minorities (17 May 1992), National Commission for Backward Classes (14 August 1993), National Human Rights Commission (12 October 1993), and National Commission for Safai Karamcharis (12 August 1994). The corrected third option is the only matching sequence.",
+      "status": "Testbook modified question — NTA dropped the original",
+      "basis": "Important: Testbook states that NTA dropped the original question and that Testbook modified it to make it answerable. For this modified version, Testbook marks option 3 (D, C, A, E, B). Its detailed solution gives the sequence: National Commission for Women (31 January 1992), National Commission for Minorities (17 May 1993), National Commission for Backward Classes (14 August 1993), National Human Rights Commission (12 October 1993), and National Commission for Safai Karmacharis (12 August 1994). This answer applies to Testbook's modified version, not necessarily the dropped original exam item.",
       "options": [
-        "Incorrect: places the 1993 and 1994 commissions before the 1992 commissions.",
-        "Incorrect: puts the National Commission for Safai Karamcharis before the NCBC, although it was constituted in 1994.",
-        "Correct: D, C, A, E, B follows the official establishment dates.",
-        "Incorrect: puts NHRC before the two 1992 commissions."
+        "Incorrect: this is not the chronological sequence given by Testbook for its modified question.",
+        "Incorrect: places the National Commission for Safai Karmacharis before the 1993 commissions.",
+        "Correct for Testbook's modified question: D, C, A, E, B.",
+        "Incorrect: places the National Human Rights Commission before the 1992 and earlier 1993 commissions."
       ],
       "sources": [
         {
@@ -126,7 +126,7 @@ const JUNE_2026_QUESTIONS = [
       "Ranjit Kumar",
       "C.R. Kothari",
       "Fred N. Kerlinger",
-      "William J. Goods and Paul K. Hatt."
+      "William J. Goode and Paul K. Hatt"
     ],
     "answer": 4,
     "set": "June 2026",
@@ -967,27 +967,27 @@ const JUNE_2026_QUESTIONS = [
     "id": "J26-83",
     "question": "Who among the following thinkers said \"We don't need more government: we need better government. To be more precise, we need better governance\"?",
     "options": [
-      "Dovglas Mcgregor",
+      "Douglas McGregor",
       "David Osborne",
       "Robert Golembiewski",
-      "Luther Gulick"
+      "Ted Gaebler"
     ],
     "answer": 2,
     "set": "June 2026",
     "sourceQuestion": 83,
     "unit": null,
     "analysis": {
-      "status": "Testbook cross-checked",
-      "basis": "The quotation is associated with David Osborne and Ted Gaebler's co-authored book Reinventing Government. To make this a single-answer question, the duplicate co-author option has been replaced with Luther Gulick; David Osborne is the intended answer.",
+      "status": "Testbook answer and options matched",
+      "basis": "Testbook lists Ted Gaebler as option 4 and marks option 2 (David Osborne) as the answer. Although Osborne and Gaebler co-authored Reinventing Government and share the broader governance perspective, Testbook specifically attributes this statement to David Osborne.",
       "options": [
-        "Incorrect: Douglas McGregor is not a co-author of Reinventing Government.",
-        "Correct: David Osborne co-authored Reinventing Government and is associated with this formulation.",
-        "Incorrect: Robert Golembiewski is not a co-author of Reinventing Government.",
-        "Incorrect: Luther Gulick is not a co-author of Reinventing Government."
+        "Incorrect: Testbook identifies Douglas McGregor with Theory X and Theory Y, not this quotation.",
+        "Correct: Testbook marks David Osborne as the answer and attributes this specific formulation to him.",
+        "Incorrect: Testbook does not attribute this quotation to Robert Golembiewski.",
+        "Incorrect: Ted Gaebler co-authored Reinventing Government with Osborne, but Testbook specifically marks David Osborne for this quotation."
       ],
       "sources": [
         {
-          "label": "Testbook — matching question and answer page",
+          "label": "Testbook — original options, marked answer and detailed solution",
           "url": "https://testbook.com/question-answer/who-among-the-following-thinkers-said-we-don--6a8414905d02c0615f059e81"
         }
       ]
