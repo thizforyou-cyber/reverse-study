@@ -150,7 +150,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact Chief Secretary question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/consider-the-following-statements-regarding-the-ap--6a84149077472744b61cd505"
         },
         {
@@ -184,7 +184,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact UGC NET question (answer heading and conflicting detailed solution)",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/hypotheses-are-the-problems-behind-the-hypotheses--6a84149321fd595ca6de9d0e"
         },
         {
@@ -328,7 +328,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — UGC NET June 2026 question and solution",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/who-of-the-following-thinkers-define-public-admin--6a84148d1f0d7a4b63d21aa6/amp"
         }
       ]
@@ -468,7 +468,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact UGC NET sampling terminology question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i--6a84149ca96c8aa81b7c4b04"
         }
       ]
@@ -502,7 +502,7 @@ const JUNE_2026_QUESTIONS = [
           "url": "https://mis.alagappauniversity.ac.in/siteAdmin/dde-admin/uploads/3/__UG_B.A._Public%20Administration%20%28English%29_106%2034%20Administrative%20Thinkers_9840.pdf"
         },
         {
-          "label": "Testbook — Normative-Optimal Model question and solution",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-correct-about-normative--6a8414a42301e182be9e556b"
         }
       ]
@@ -655,10 +655,6 @@ const JUNE_2026_QUESTIONS = [
       "sources": [
         {
           "label": "Testbook — matching question and answer page",
-          "url": "https://testbook.com/question-answer/pm-yas yasvi-scholarship-is-for-the-students-of-a--6a8414a76b17d2db6bcb0641"
-        },
-        {
-          "label": "Testbook — exact UGC NET PM-YASASVI question",
           "url": "https://testbook.com/question-answer/pm-yasasvi-scholarship-is-for-the-students-of-a--6a8414a76b17d2db6bcb0641"
         },
         {
@@ -852,7 +848,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact UGC NET organization chronology question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/arrange-the-following-organizations-in-chronologic--6a8414922827fb4563bec64b"
         },
         {
@@ -962,7 +958,7 @@ const JUNE_2026_QUESTIONS = [
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-an-integral-part-of--6a8414b1a96c8aa81b7c4d0d"
         },
         {
-          "label": "Testbook — exact UGC NET question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-an-integral-part-of--6a8414b1a96c8aa81b7c4d0d/amp"
         }
       ]
@@ -1076,7 +1072,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "UGC NET June 2026 question and explanation",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-correct-about-new-public--6a84148ac49d41c108964cf8"
         },
         {
@@ -1110,7 +1106,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact chronology question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/arrange-the-models-institutions-of-comparative-p--6a8414a86cac6124707965a6"
         },
         {
@@ -1326,7 +1322,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "UGC NET June 2026 question and explanation",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/to-critique-the-current-state-of-public-admi--6a8414acb97d1184d20d564d"
         }
       ]
@@ -1356,7 +1352,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact UGC NET Governor assent question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-true-about-the-gover--6a8414ae6d3976b0d1abe69d"
         },
         {
@@ -1466,7 +1462,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact UGC NET matching question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-ilist-iia-socia--6a84149f5bd4ffee7eb5ef2a/amp"
         }
       ]
@@ -1496,7 +1492,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "UGC NET June 2026 question and solution",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/sustainable-development-needsa-to-consider-and--6a84149a10d48ab39403f769/amp"
         }
       ]
@@ -1560,7 +1556,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact Public Choice Theory question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-statement-is-correct-about--6a8414945bd4ffee7eb5edc1"
         }
       ]
@@ -1802,7 +1798,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact Macaulay quotation question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-officer-according-to-macau--6a8414aa54b3eec81d1744e4"
         },
         {
@@ -1840,7 +1836,7 @@ const JUNE_2026_QUESTIONS = [
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i-author-edit--6a8414ae3b16163bc9aaf5a6"
         },
         {
-          "label": "Testbook — exact UGC NET matching question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-ilist-iia-centr--6a8414a51f5d254ec9f502e9/amp"
         },
         {
@@ -1916,7 +1912,7 @@ const JUNE_2026_QUESTIONS = [
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-correct-about-whistl--6a84148e21fd595ca6de9d02"
         },
         {
-          "label": "Testbook — exact Whistle Blowers Protection Act question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-correct-about-whistl--6a84148e21fd595ca6de9d02/amp"
         }
       ]
@@ -1984,7 +1980,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact UGC NET French Civil Service question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/the-french-civil-service-has-more-than-five-millio--6a841499c03132905a3a17fe"
         }
       ]
@@ -2014,7 +2010,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact UGC NET financial committees question and explanation",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-committees-exercise-financial-control-on-beh--6a8414ac4094ddbbaeceb79a"
         },
         {
@@ -2082,7 +2078,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact UGC NET data-preparation question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/stages-of-data-preparation-process-include-a-edi--6a8414b295023b6323051499"
         }
       ]
@@ -2112,7 +2108,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact Citizen's Charter question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-statements-are-correct-abou--6a84149da07d2d992db28189/amp"
         },
         {
@@ -2180,7 +2176,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact UGC NET author/book matching question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i-author-edit--6a8414ae3b16163bc9aaf5a6"
         }
       ]
@@ -2214,7 +2210,7 @@ const JUNE_2026_QUESTIONS = [
           "url": "https://testbook.com/question-answer/which-of-the-following-taxes-belonging-to-the-unio--6a8414971f5d254ec9f50217"
         },
         {
-          "label": "Testbook — exact Union tax question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-taxes-belonging-to-the-unio--6a8414971f5d254ec9f50217/amp"
         },
         {
@@ -2358,7 +2354,7 @@ const JUNE_2026_QUESTIONS = [
           "url": "https://testbook.com/question-answer/who-among-the-following-thinkers-describe-job-enri--6a8414a410d48ab39403f7de/amp"
         },
         {
-          "label": "Testbook — exact UGC NET job-enrichment quotation",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/who-among-the-following-thinkers-describe-job-enri--6a8414a410d48ab39403f7de"
         }
       ]
@@ -2460,7 +2456,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact UGC NET research-process question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/arrange-the-following-steps-of-research-processa--6a8414b16cac6124707965c9/amp"
         },
         {
@@ -2536,7 +2532,7 @@ const JUNE_2026_QUESTIONS = [
           "url": "https://testbook.com/objective-questions/mcq-on-evolution-of-indian-administration--69c5090e245abac0786ac2be"
         },
         {
-          "label": "Testbook — exact Second ARC chronology question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/chronologically-arrange-the-second-administratives--6a8414ad20eeb7cce9ba9440"
         },
         {
@@ -2756,7 +2752,7 @@ const JUNE_2026_QUESTIONS = [
           "url": "https://testbook.com/question-answer/which-of-the-following-is-correct-regarding-distri--6a8414a295023b632305139b/amp"
         },
         {
-          "label": "Testbook — exact UGC NET DDMA question (answer/explanation conflict)",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-correct-regarding-distri--6a8414a295023b632305139b"
         },
         {
@@ -2794,7 +2790,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact Edward S. Quade question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/according-to-edward-s-quade-the-decision-making--6a841495b97d1184d20d54bd"
         }
       ]
@@ -2896,7 +2892,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact quotation and attribution",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/among-the-following-authors-who-said-administrat--6a8414a36e24783a19cfba54/amp"
         }
       ]
@@ -2972,7 +2968,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact UGC NET definition question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/who-of-the-following-defined-comparative-pu--6a8414a9c03132905a3a1923"
         }
       ]
@@ -3040,7 +3036,7 @@ const JUNE_2026_QUESTIONS = [
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i-bo--6a8414a215917f70d21a9a65"
         },
         {
-          "label": "Testbook — exact UGC NET book/author question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-i-bo--6a8414a215917f70d21a9a65"
         },
         {
@@ -3074,7 +3070,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — exact Target Base Budgeting question",
+          "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/the-target-base-budgeting-is-also-known-as--6a8414a26d3976b0d1abe61f/amp"
         }
       ]
