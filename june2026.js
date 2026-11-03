@@ -14,7 +14,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 51,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The titles match as follows: General and Industrial Management—Henri Fayol; Papers on the Science of Administration—Gulick and Urwick; The Science of Public Administration: Three Problems—Robert Dahl; Reflections on Public Administration—John M. Gaus.",
       "options": [
         "Correct: A-II, B-IV, C-I, D-III.",
@@ -23,6 +23,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: the author-title pairs are mismatched."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i-articles-bo--6a8414abd1638ce652b6d682/amp"
+        },
         {
           "label": "Smithsonian Libraries — Papers on the Science of Administration (1937)",
           "url": "https://www.si.edu/object/papers-science-administration-luther-gulick-l-urwick-james-d-mooney-and-others-edited-luther-gulick%3Asiris_sil_45201"
@@ -52,7 +56,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 52,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The official establishment dates give this order: National Commission for Women (31 January 1992), National Commission for Minorities (17 May 1992), National Commission for Backward Classes (14 August 1993), National Human Rights Commission (12 October 1993), and National Commission for Safai Karamcharis (12 August 1994). The corrected third option is the only matching sequence.",
       "options": [
         "Incorrect: places the 1993 and 1994 commissions before the 1992 commissions.",
@@ -61,6 +65,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: puts NHRC before the two 1992 commissions."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/arrange-the-set-up-of-following-commissions-in-chr--6a84148e54b3eec81d1742c4/amp"
+        },
         {
           "label": "National Commission for Women — Brief History",
           "url": "https://uatncwwomen.digitalindiacorporation.in/about-us/about-the-commission/brief-history/"
@@ -94,7 +102,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 53,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The Cabinet Secretariat's official history states that on 5 September 1946 the Executive Council Secretariat was designated as the Cabinet Secretariat. Its official description also says it functions directly under the Prime Minister and is headed administratively by the Cabinet Secretary.",
       "options": [
         "Incorrect — it functions under the Prime Minister, not directly under the President.",
@@ -103,6 +111,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect — the administrative head is the Cabinet Secretary, not the Chief Secretary."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-is-correct-about-cabinet-se--6a8414969c27e5a86776709b"
+        },
         {
           "label": "Cabinet Secretariat — Origin",
           "url": "https://cabsec.gov.in/aboutus/origin"
@@ -128,7 +140,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 54,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The Chief Secretary is chosen by the Chief Minister, and the post has no fixed tenure. The claim that the senior-most officer must invariably be appointed is too absolute; selection is not governed by an automatic seniority rule. The claim that appointment is always based on performance and merit is also not a binding universal rule. Therefore A and D only.",
       "options": [
         "Incorrect: seniority alone does not create an automatic rule that the senior-most officer must be appointed.",
@@ -196,7 +208,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 56,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The NDMA is chaired by the Prime Minister under section 3 of the Disaster Management Act, 2005. Section 47 provides for the National Disaster Mitigation Fund. The MHA is the nodal ministry and NIDM has a capacity-building role.",
       "options": [
         "Correct — MHA is the nodal ministry for disaster management.",
@@ -205,6 +217,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct — NIDM's role includes training, research and capacity building."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-statement-is-not-correct-re--6a84148f86bec0a1dc7e82ac"
+        },
         {
           "label": "Disaster Management Act, section 3",
           "url": "https://indiacode.nic.in/"
@@ -230,7 +246,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 57,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Top-down analysis treats policy-makers as central actors; bottom-up analysis emphasizes street-level implementers; the policy-action approach examines the policy/implementation continuum; the managerial approach draws on business-like reinvention.",
       "options": [
         "Incorrect: top-down is II, not I; bottom-up is III, not II.",
@@ -239,6 +255,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: A-II, B-III, C-IV, D-I."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/match-the-list-i-with-list-i--6a8414a095023b632305138a"
+        },
         {
           "label": "IGNOU eGyanKosh — Public Policy: Implementation System and Models",
           "url": "https://egyankosh.ac.in/bitstream/123456789/25776/1/Unit-12.pdf"
@@ -260,7 +280,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 58,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The Central Social Welfare Board was established in 1953 under the leadership of Durgabai Deshmukh and worked to support and strengthen voluntary organisations in social welfare. The statement that it did not promote voluntary efforts is therefore the incorrect statement.",
       "options": [
         "Incorrect: the Board was established in 1953.",
@@ -269,6 +289,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: this is false because promoting voluntary effort and voluntary organisations was central to the Board's role."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-is-not-correct-regarding-ce--6a841493b97d1184d20d54ac"
+        },
         {
           "label": "Maharashtra Government — Central Social Welfare Board",
           "url": "https://womenchild.maharashtra.gov.in/en/central-social-welfare-board"
@@ -294,7 +318,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 59,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Dwight Waldo is the intended answer. The same question appears in the June 2026 UGC NET Public Administration paper with Waldo identified as the answer. The statement reflects the historical breadth of administration, which predates the modern academic discipline.",
       "options": [
         "Incorrect: Luther Gulick is associated with POSDCORB and classical administrative theory, not this definition.",
@@ -324,7 +348,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 60,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Lindblom's incrementalism is a descriptive, politically feasible approach based on successive limited comparisons and constrained decision-makers. It is commonly characterized as conservative; it is not a goal-focused comprehensive-rational model. Thus A, B, D and E are correct.",
       "options": [
         "Correct: incrementalism tends to preserve existing arrangements and make marginal changes, hence the conservative label.",
@@ -333,6 +357,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: it describes how policy decisions are often actually made under limits of time, information and resources."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-followings-is-correct-regarding-incre--6a84148b348883f48a838643"
+        },
         {
           "label": "Lindblom, The Science of Muddling Through (1959)",
           "url": "https://gsdm.u-tokyo.ac.jp/file/Lindblom-1959.pdf"
@@ -358,7 +386,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 61,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The First Administrative Reforms Commission recommended the creation of Sector Corporations in its report on Public Sector Undertakings (October 1967). The Government did not accept the proposal, but the recommendation is attributed to the First ARC.",
       "options": [
         "Incorrect: not the committee identified in the relevant public-sector reform recommendation.",
@@ -367,6 +395,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: the recommendation predates the Second ARC."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-commission-committee-recommended-for-the-s--6a8414b0348883f48a838899"
+        },
         {
           "label": "Third Pay Commission report citing the First ARC recommendation",
           "url": "https://www.cgspublicationindia.com/Pdf/Pay%20Commissions/Third%20Pay%20Commission/3rd%20CPC%20%28Report%2C%20Vol%20I%29.pdf"
@@ -388,7 +420,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 62,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The intended matches are Village Panchayat—Sarpanch (IV), Panchayat Samiti—Block Development Officer (III), Municipal Council—President (I), and Municipal Corporation—Mayor (II). This is option 4.",
       "options": [
         "Incorrect: the village panchayat and municipal corporation are not matched with their usual heads.",
@@ -397,6 +429,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: A-IV, B-III, C-I, D-II."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i--6a8414a586bec0a1dc7e83e1"
+        },
         {
           "label": "Ministry of Panchayati Raj — Panchayati Raj institutions",
           "url": "https://panchayat.gov.in/"
@@ -452,7 +488,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 64,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Yehezkel Dror’s normative-optimal model combines rational and extra-rational elements and includes meta-policy making. It is qualitative rather than merely quantitative, so A, C and D are correct.",
       "options": [
         "Correct: the model balances rational analysis with extra-rational elements such as experience, intuition and value judgement.",
@@ -486,7 +522,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 65,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "UPSC's Civil Services Examination has Preliminary followed by Main (written and interview). The commission's process starts with notification/advertisement and applications; certification/selection documentation follows the examination stages. The intended sequence is A, B, C, E, D.",
       "options": [
         "Incorrect: places certification before the Main examination and interview.",
@@ -495,6 +531,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: starts with Preliminary before advertisement and scrutiny."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/arrange-the-activities-conducted-by-union-public-s--6a84149620eeb7cce9ba929f"
+        },
         {
           "label": "UPSC — Examination structure",
           "url": "https://cms.upsc.gov.in/about-us/divisions/examination/"
@@ -516,7 +556,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 66,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "First publication years: Principles of Scientific Management (1911), Functions of the Executive (1938), Administrative Behavior (1947), The Human Side of Enterprise (1960), and The Ecology of Public Administration (1961). The order is D, E, C, B, A.",
       "options": [
         "Incorrect: puts The Ecology of Public Administration first.",
@@ -525,6 +565,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: D, E, C, B, A is the chronological sequence."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/arrange-the-following-books-in-chronological-order--6a84149498dcac77a0903929/amp"
+        },
         {
           "label": "Taylor — Principles of Scientific Management",
           "url": "https://books.google.com/books?q=Taylor+Principles+of+Scientific+Management+1911"
@@ -562,7 +606,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 67,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "NITI Aayog was created by a Cabinet Resolution dated 1 January 2015. Its mandate includes national development priorities and it can constitute regional councils. Therefore C is false; B and D are correct. A is an interpretive characterization often used in critiques of its governance philosophy, rather than a verbatim statutory objective, so the supplied option D (A, B, D) is the best match only if A is accepted as the question's analytical proposition.",
       "options": [
         "Treated as correct in the question's interpretive framing, but it is an analytical characterization rather than an official statement of mandate.",
@@ -571,6 +615,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: its mandate includes evolving shared national development priorities."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-statements-about-national-i--6a8414abab431590c84de9b0"
+        },
         {
           "label": "NITI Aayog — official overview",
           "url": "https://www.niti.gov.in/"
@@ -606,6 +654,10 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/pm-yas yasvi-scholarship-is-for-the-students-of-a--6a8414a76b17d2db6bcb0641"
+        },
+        {
           "label": "Testbook — exact UGC NET PM-YASASVI question",
           "url": "https://testbook.com/question-answer/pm-yasasvi-scholarship-is-for-the-students-of-a--6a8414a76b17d2db6bcb0641"
         },
@@ -630,7 +682,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 69,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Accountability in democratic administration is associated with citizen participation, performance and lawful, timely implementation. Autocracy is incompatible with accountable and responsive governance; option A is the exception.",
       "options": [
         "Incorrect as an essence of accountability: autocracy concentrates power without public answerability.",
@@ -639,6 +691,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: timely implementation of law is part of lawful and responsible administration."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-is-not-correct-about-the--6a8414a84094ddbbaeceb78c"
+        },
         {
           "label": "UN — Public accountability and governance",
           "url": "https://publicadministration.un.org/"
@@ -664,7 +720,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 70,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The wording paraphrases Frank J. Goodnow's distinction in Politics and Administration (1900): politics expresses/formulates the will of the state; administration executes that will.",
       "options": [
         "Incorrect: Wilson is associated with the 1887 essay The Study of Administration, but this particular formulation is Goodnow's.",
@@ -673,6 +729,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: Mary Parker Follett is not the source of this politics-administration formulation."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/who-among-the-following-authors-said-politics-has--6a8414a054b3eec81d174429"
+        },
         {
           "label": "Goodnow, Politics and Administration (1900) — primary text",
           "url": "https://teachingamericanhistory.org/document/politics-and-administration/"
@@ -698,7 +758,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 71,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "National Informatics Centre was established in 1976; the Information Technology Act was enacted in 2000; the National e-Governance Plan was approved in 2006; Digital India was launched in 2015. The mapping is A-III, B-IV, C-II, D-I.",
       "options": [
         "Incorrect: assigns Digital India to 2006 and NIC to 2000.",
@@ -707,6 +767,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: the year assignments are mismatched."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i-actspolicies--6a84149010d48ab39403f6b8/amp"
+        },
         {
           "label": "NIC — About NIC",
           "url": "https://www.nic.gov.in/"
@@ -740,7 +804,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 72,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Kautilya's Saptanga theory identifies seven elements: Swamin, Amatya, Janapada, Durga, Kosha, Danda and Mitra. Purohita is not a separate one of the seven limbs in the standard list.",
       "options": [
         "Correct: Swamin (sovereign) is one of the seven limbs.",
@@ -749,6 +813,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: Mitra (ally) is one of the seven limbs."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-one-of-the-following-is-not-essential-organs--6a84148885c98d3b75efe7e9/amp"
+        },
         {
           "label": "MP-IDSA — Kautilya's Saptanga theory",
           "url": "https://idsa.in/askanexpert/shashank-mittal-asked-what-is-the-contemporary-relevance-of-kautilyas-saptang-theory"
@@ -808,7 +876,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 74,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Policy evaluation involves identifying the purpose, choosing an evaluation approach or methodology, and analysing findings. The phrase “Area of evaluation is not identifying” is not a meaningful evaluation task; it is the incorrect statement asked for.",
       "options": [
         "Correct practice: identifying the purpose and objectives is a basic step in evaluation planning.",
@@ -817,6 +885,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct practice: analysing results and evidence is central to evaluation."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-is-not-a-part-of-policy-eva--6a84149ba96c8aa81b7c4b03"
+        },
         {
           "label": "UK Government — Magenta Book: Central Government Guidance on Evaluation",
           "url": "https://www.gov.uk/government/publications/the-magenta-book/magenta-book-central-government-guidance-on-evaluation-html"
@@ -842,7 +914,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 75,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Article 32 concerns constitutional remedies including writs such as quo warranto; Article 246 distributes legislative subjects; Article 143 gives the Supreme Court advisory jurisdiction; Article 309 concerns recruitment and conditions of service. The matching is A-III, B-I, C-IV, D-II.",
       "options": [
         "Incorrect: Articles 32 and 246 are reversed.",
@@ -851,6 +923,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: Articles 246 and 309 are mismatched."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-ilist-iia-artic--6a8414aa77472744b61cd625/amp"
+        },
         {
           "label": "Constitution of India — Legislative Department",
           "url": "https://legislative.gov.in/constitution-of-india/"
@@ -872,7 +948,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 76,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "A research report is structurally organized around the research problem, methodology and results/findings. Footnotes are a referencing or explanatory device and may be used where needed, but they are not a core structural section.",
       "options": [
         "Incorrect: defining the research problem is a central part of a report.",
@@ -881,6 +957,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: results/findings are a central part of a research report."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-is-not-an-integral-part-of--6a8414b1a96c8aa81b7c4d0d"
+        },
         {
           "label": "Testbook — exact UGC NET question",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-an-integral-part-of--6a8414b1a96c8aa81b7c4d0d/amp"
@@ -902,7 +982,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 77,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Japan has a National Personnel Authority (NPA), an independent central personnel agency for the national public service.",
       "options": [
         "Incorrect: the UK has a Civil Service Commission, not Japan's NPA.",
@@ -911,6 +991,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: Japan."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/the-national-personnel-authority-npa-is-a-centra--6a8414b077472744b61cd631"
+        },
         {
           "label": "Japan National Personnel Authority",
           "url": "https://www.jinji.go.jp/english/"
@@ -932,7 +1016,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 78,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The chronological order by enactment year is Dowry Prohibition Act (1961), Equal Remuneration Act (1976), Commission of Sati (Prevention) Act (1987), Pre-Conception and Pre-Natal Diagnostic Techniques Act (1994), and Protection of Women from Domestic Violence Act (2005): E, D, C, A, B.",
       "options": [
         "Incorrect: reverses the chronology; the 1994 and 2005 Acts are not first.",
@@ -941,6 +1025,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: places the 2005 Domestic Violence Act first."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/arrange-the-following-acts-in-chronological-order--6a8414a92301e182be9e55ba"
+        },
         {
           "label": "India Code — Dowry Prohibition Act, 1961",
           "url": "https://www.indiacode.nic.in/"
@@ -978,7 +1066,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 79,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "New Public Administration rejects a rigid rationalist and determinative view of human beings, is anti-bureaucratic and anti-hierarchical, anti-positivist, and anti-mechanistic. It rejects rather than supports the politics-administration dichotomy. Therefore A, B, D and E are correct.",
       "options": [
         "Incorrect: omits D and E, both of which describe NPA's anti-positivist and anti-mechanistic orientation.",
@@ -1012,7 +1100,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 80,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The sequence used in the question-specific solution is Agraria–Industria (1956–57), Transitia (1957), Fused–Prismatic–Diffracted (late 1950s/early 1960s), Comparative Administrative Group (1960), and Prismatic Society Revisited (1973/1975, depending on edition/source). This corresponds to B, E, D, A, C. The dates of the model development and CAG overlap, so the ordering follows the standard chronology used for this examination item.",
       "options": [
         "Correct: B, E, D, A, C is the sequence given for the development of Riggs's models and the CAG, ending with Prismatic Society Revisited.",
@@ -1050,7 +1138,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 81,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Article 243D provides reservation of seats in Panchayats; 243K provides for State Election Commissions; 243W concerns powers and responsibilities of Municipalities; 243ZE provides for Metropolitan Planning Committees.",
       "options": [
         "Incorrect: all four article mappings are shifted.",
@@ -1059,6 +1147,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: Article 243D does not concern municipal powers."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i-ar--6a84148986bec0a1dc7e8248"
+        },
         {
           "label": "Constitution of India — Part IX and Part IX-A",
           "url": "https://legislative.gov.in/constitution-of-india/"
@@ -1080,7 +1172,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 82,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "A variable is a symbol to which values are assigned; a hypothesis is a conjectural statement about relationships between variables; a theory is a set of interrelated concepts and propositions; scientific research is systematic, controlled, empirical and critical investigation.",
       "options": [
         "Incorrect: variable and hypothesis definitions are mismatched.",
@@ -1089,6 +1181,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: A-IV, B-III, C-I, D-II."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-ilist-iia-varia--6a8414922301e182be9e5350/amp"
+        },
         {
           "label": "Kerlinger — Foundations of Behavioral Research",
           "url": "https://books.google.com/books?q=Kerlinger+Foundations+of+Behavioral+Research+variable+hypothesis+theory"
@@ -1110,7 +1206,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 83,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The quotation is associated with David Osborne and Ted Gaebler's co-authored book Reinventing Government. To make this a single-answer question, the duplicate co-author option has been replaced with Luther Gulick; David Osborne is the intended answer.",
       "options": [
         "Incorrect: Douglas McGregor is not a co-author of Reinventing Government.",
@@ -1119,6 +1215,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: Luther Gulick is not a co-author of Reinventing Government."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/who-among-the-following-thinkers-said-we-don--6a8414905d02c0615f059e81"
+        },
         {
           "label": "ERIC — Reinventing Government record",
           "url": "https://eric.ed.gov/?id=ED378115"
@@ -1144,7 +1244,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 84,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The Department of Personnel and Training lists six pillars of NPCSCB: Policy Framework, Institutional Framework, Competency Framework, Digital Learning Framework (iGOT-Karmayogi), e-HRMS, and Monitoring and Evaluation Framework. “Programme of Employment” is not one of these official pillars. Option 1 is correct.",
       "options": [
         "Correct: Programme of Employment is not one of the six official pillars.",
@@ -1153,6 +1253,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: customized and role-based training forms part of the programme's approach."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-is-not-a-component-of-natio--6a8414992827fb4563bec67b"
+        },
         {
           "label": "Department of Personnel and Training — NPCSCB pillars",
           "url": "https://trgdiv.dopt.gov.in/igotmk/NPCSCB.html"
@@ -1178,7 +1282,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 85,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The Contingency Fund of India is established under the Contingency Fund of India Act, 1950 (Act 49 of 1950). Option B is correct.",
       "options": [
         "Incorrect: the governing Act is from 1950, not 1949.",
@@ -1187,6 +1291,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: there is no constituting Act of 1952."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/the-contingency-fund-for-india-was-constituted-by--6a84148d1f5d254ec9f50181"
+        },
         {
           "label": "India Code — Contingency Fund of India Act, 1950",
           "url": "https://www.indiacode.nic.in/"
@@ -1208,7 +1316,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 86,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The wording is the stated mission of Minnowbrook Conference III, held in 2008. The question-specific UGC NET solution reproduces this mission statement and identifies Conference III.",
       "options": [
         "Incorrect: Minnowbrook I (1968) was the original conference associated with the emergence of New Public Administration.",
@@ -1276,7 +1384,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 88,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The usual parliamentary sequence is presentation of the Budget, general discussion, voting on demands for grants, passing the Appropriation Bill, and passing the Finance Bill.",
       "options": [
         "Correct: A, C, B, E, D.",
@@ -1285,6 +1393,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: begins with discussion before the Budget is presented."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/arrange-the-stages-of-budget-enactment-in-the-parl--6a8414a721fd595ca6de9f17"
+        },
         {
           "label": "Lok Sabha — Budgetary Process",
           "url": "https://sansad.in/ls/legislation/budgetary-process"
@@ -1306,7 +1418,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 89,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The Obama White House launched the online petition platform called “We the People” in September 2011. It allowed people to create and sign petitions asking the federal government to act. Option 4 is correct.",
       "options": [
         "Incorrect: this was not the name of the White House petition platform.",
@@ -1315,6 +1427,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: the White House announced and launched “We the People” in 2011."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/in-the-u-s-a-a-programme-for-petitioning-against--6a84148aef3830e4b8058686"
+        },
         {
           "label": "The White House — Announces We the People, 1 September 2011",
           "url": "https://obamawhitehouse.archives.gov/the-press-office/2011/09/01/white-house-announces-we-people"
@@ -1340,7 +1456,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 90,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The definitions match as follows: Social Welfare—organized system of social services and institutions (I); Social Security—public programmes to maintain and raise living standards (II); Social Service—services needed on a wide scale by the normal population (III); Social Work—a profession helping people solve personal, group and community problems (IV).",
       "options": [
         "Incorrect: mismatches all four definitions.",
@@ -1370,7 +1486,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 91,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The question-specific UGC NET solution identifies C and D only. The statements about reviewing existing schemes and accessing registers/documents are characteristic procedural steps associated with social audit, rather than the broad requirements listed here for sustainable development. Sustainable development requires community-led conservation and a shift away from wasteful consumerism.",
       "options": [
         "Incorrect: A is not identified as a defining requirement in the source treatment of this item; it concerns review of schemes and local activities.",
@@ -1400,7 +1516,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 92,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Independent regulatory commissions are a distinctive feature of the United States administrative and constitutional system.",
       "options": [
         "Incorrect: Britain generally uses ministerial departments and regulators, not the US-style independent commission tradition.",
@@ -1409,6 +1525,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: Germany's federal regulatory architecture is different."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/the-independent-regulatory-commissions-are-peculia--6a84148bc562b3dd98ef9b71"
+        },
         {
           "label": "US Congressional Research Service — Independent Regulatory Agencies",
           "url": "https://crsreports.congress.gov/"
@@ -1430,7 +1550,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 93,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Public Choice Theory criticizes traditional bureaucratic administration, supports institutional pluralism, and applies utility-maximizing assumptions to individuals and vote-maximizing assumptions to politicians. It does not support rigid hierarchical administration. Therefore A, B, D and E are correct.",
       "options": [
         "Correct: A, B, D and E only.",
@@ -1460,7 +1580,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 94,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Likert's linking-pin model describes overlapping groups. A linking-pin member participates in a higher-level group while leading a lower-level group, connecting the organization vertically and horizontally.",
       "options": [
         "Incorrect: this describes a top-down decision structure, not the linking-pin principle.",
@@ -1469,6 +1589,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: each linking-pin individual belongs to a higher-level group and leads a lower-level group."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/in-the-linking-pin-model--6a8414a186bec0a1dc7e8320"
+        },
         {
           "label": "Rensis Likert — New Patterns of Management (1961)",
           "url": "https://books.google.com/books?q=Rensis+Likert+New+Patterns+of+Management+linking+pin"
@@ -1490,7 +1614,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 95,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The Ashok Mehta Committee (1977–78) recommended a two-tier Panchayati Raj structure, consisting of Zila Parishad at district level and Mandal Panchayat below it.",
       "options": [
         "Incorrect: Balwant Rai Mehta recommended a three-tier system.",
@@ -1499,6 +1623,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: G.V.K. Rao recommended strengthening district-level planning, not the original two-tier recommendation."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-committee-made-recommendati--6a8414afdd96b4166cc86f4c"
+        },
         {
           "label": "Ministry of Panchayati Raj — Committee recommendations",
           "url": "https://panchayat.gov.in/"
@@ -1520,7 +1648,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 96,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The Madras Municipal Corporation dates to 1688; Mayo's Resolution is 1870; Ripon's local self-government resolution is 1882; the Royal Commission on Decentralisation was appointed in 1907. Sequence B, D, C, A.",
       "options": [
         "Incorrect: places the Royal Commission before earlier events.",
@@ -1529,6 +1657,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: puts Ripon's 1882 resolution first."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/arrange-the-following-events-in-chronological-orde--6a84149defea983daab2a2ac"
+        },
         {
           "label": "Government of India — Local Self Government history",
           "url": "https://www.google.com/search?q=Madras+Municipal+Corporation+1688+Mayo+Resolution+1870+Ripon+1882+Royal+Commission+Decentralisation+1907"
@@ -1550,7 +1682,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 97,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The formulation that civil society is an essential dimension/leg of bourgeois society is associated with Antonio Gramsci's analysis of civil society and hegemony.",
       "options": [
         "Correct: Gramsci analyzed civil society as a central terrain of bourgeois hegemony.",
@@ -1559,6 +1691,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: Sudipta Kaviraj is not the source of this formulation."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/civil-society-was-an-essential-leg-of-the-bou--6a8414b18ecdcc6af968a90b"
+        },
         {
           "label": "Gramsci — Selections from the Prison Notebooks (Google Books)",
           "url": "https://books.google.com/books?q=Gramsci+Selections+from+the+Prison+Notebooks+civil+society"
@@ -1580,7 +1716,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 98,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Easton's systems model is conventionally represented as inputs entering the political system, which converts them into outputs; feedback from outputs returns to the system. Sequence A, C, D, B.",
       "options": [
         "Incorrect: feedback does not precede the political system and outputs.",
@@ -1589,6 +1725,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: begins with the political system before inputs."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/arrange-the-sequence-of-steps-of-policy-making-p--6a8414a67ac818de52fd54b8"
+        },
         {
           "label": "David Easton — The Political System",
           "url": "https://books.google.com/books?q=David+Easton+The+Political+System+inputs+outputs+feedback"
@@ -1610,7 +1750,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 99,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The expected chronology is Gore Committee on Police Training (1971–73), National Police Commission (1977), Ribeiro Committee (1998), Malimath Committee (2000/2003 report period), and Soli Sorabjee Police Act Drafting Committee (2005). That is E, A, B, C, D.",
       "options": [
         "Correct: E, A, B, C, D follows the accepted chronology.",
@@ -1619,6 +1759,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: places Malimath and Sorabjee before the earlier police reform bodies."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/arrange-the-following-commissions-committees-in--6a84149e01ed239cfa60909d/amp"
+        },
         {
           "label": "PRS — Police reforms and committee chronology",
           "url": "https://prsindia.org/"
@@ -1648,7 +1792,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 100,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The quotation refers to the unusually concentrated revenue, executive and magisterial authority exercised by the district-level Collector/Deputy Commissioner in colonial India. Among the listed choices, Deputy Commissioner is the matching designation.",
       "options": [
         "Incorrect: the quotation concerns the district-level Collector/Deputy Commissioner, not the divisional supervisory officer.",
@@ -1682,7 +1826,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 101,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The matches are: CVC—Santhanam Committee (IV); Lokayukta—First ARC (III); National Institute of Public Administration—Second ARC (I); Indian Institute of Public Administration—Paul H. Appleby (II). Therefore A-IV, B-III, C-I, D-II.",
       "options": [
         "Incorrect: CVC and Lokayukta are wrongly matched, and the NIPA/IIPA pairing is reversed.",
@@ -1691,6 +1835,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: the IIPA is linked with Paul H. Appleby, not the Santhanam Committee."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i-author-edit--6a8414ae3b16163bc9aaf5a6"
+        },
         {
           "label": "Testbook — exact UGC NET matching question",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-ilist-iia-centr--6a8414a51f5d254ec9f502e9/amp"
@@ -1720,7 +1868,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 102,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Simple random sampling gives each element in the population an equal and independent chance of selection. The correct statement is B only, option D.",
       "options": [
         "Incorrect: quota sampling is non-probability sampling.",
@@ -1729,6 +1877,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: B only."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/when-each-element-in-the-study-population-has-an-e--6a84149bef3830e4b8058851"
+        },
         {
           "label": "OpenStax — Sampling methods",
           "url": "https://openstax.org/books/introductory-statistics/pages/1-2-data-sampling-and-variation-in-data-and-sampling"
@@ -1750,7 +1902,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 103,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The Whistle Blowers Protection Act, 2011 provides a mechanism for complaints concerning corruption and wilful misuse of power or discretion by public servants. The statement that it does not consider private gain arising from public responsibilities is the incorrect statement; such misuse/private gain is within the Act's subject matter.",
       "options": [
         "Incorrect: this is one of the Act's purposes.",
@@ -1759,6 +1911,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: protecting persons making qualifying disclosures is the Act's central purpose."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-is-not-correct-about-whistl--6a84148e21fd595ca6de9d02"
+        },
         {
           "label": "Testbook — exact Whistle Blowers Protection Act question",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-correct-about-whistl--6a84148e21fd595ca6de9d02/amp"
@@ -1780,7 +1936,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 104,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Articles 38 and 46 are correctly described. Article 340 concerns a commission to investigate the conditions of backward classes; Article 341 identifies Scheduled Castes (not STs); Article 335 concerns claims of SCs and STs in services and posts. Therefore A, B and E only: option D.",
       "options": [
         "Incorrect: statement C is false; Article 340 is about a commission on backward classes.",
@@ -1789,6 +1945,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: A, B and E only."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/read-the-following-provisions-of-constitution-rega--6a84149ac49d41c108964e2f"
+        },
         {
           "label": "Constitution of India — Legislative Department",
           "url": "https://legislative.gov.in/constitution-of-india/"
@@ -1878,7 +2038,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 107,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Article 164 provides that the Chief Minister is appointed by the Governor and other ministers are appointed by the Governor on the Chief Minister's advice. In parliamentary practice, a Chief Minister can seek a minister's dismissal through the Governor; the Union Home Minister has no such constitutional role. Thus A, B and C.",
       "options": [
         "Incorrect: A is true; the Chief Minister is appointed by the Governor.",
@@ -1887,6 +2047,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: A, B and C only."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/consider-the-following-statements-regarding-the-ro--6a8414a38ecdcc6af968a898"
+        },
         {
           "label": "Constitution of India — Article 164",
           "url": "https://legislative.gov.in/constitution-of-india/"
@@ -1908,7 +2072,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 108,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Data preparation includes checking questionnaires, editing and coding, tabulation, and cleaning/adjusting the data. Report writing comes later, after data preparation and analysis, so E is excluded. The correct set is B, A, D and C.",
       "options": [
         "Incorrect: omits questionnaire checking and includes only some preparation stages.",
@@ -1938,7 +2102,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 109,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The Citizen's Charter initiative began in the United Kingdom in 1991. It is described as a non-agency mechanism for citizen participation and seeks better quality, efficiency and effectiveness in public services. Statement C is incorrect because the charter concerns the relationship between public service providers/government agencies and citizens, not a 'non-government-citizen' relationship. Thus A, B and D only.",
       "options": [
         "Incorrect: includes C, whose wording misstates the relationship.",
@@ -1972,7 +2136,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 110,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The quotation is attributed to William J. Goode and Paul K. Hatt in Methods in Social Research, where theory is described in terms of relationships among facts and their meaningful ordering.",
       "options": [
         "Incorrect: Ram Ahuja is not the source of this wording.",
@@ -1981,6 +2145,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: William J. Goode and Paul K. Hatt."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/to-the-scientist-theory-refers-to-the-relat--6a84148ce29c872ff332267b"
+        },
         {
           "label": "Goode and Hatt — Methods in Social Research",
           "url": "https://books.google.com/books?q=Goode+Hatt+Methods+in+Social+Research+theory+relationships+between+facts"
@@ -2002,7 +2170,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 111,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The correct matches are: George F. Gant—Development Administration: Concepts, Goals, Methods (II); B. Guy Peters—The Politics of Bureaucracy: A Comparative Perspective (III); Ferrel Heady and Sybil Stokes—Papers in Comparative Public Administration (I); F. W. Riggs—Administration in Developing Countries (IV). Therefore A-II, B-III, C-I, D-IV.",
       "options": [
         "Incorrect: mismatches the authors and titles.",
@@ -2032,7 +2200,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 112,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "A surcharge on income tax is levied for Union purposes and its proceeds belong exclusively to the Union. Corporation tax is also a Union tax. Land revenue and taxes on agricultural income fall within State taxation, while tolls are not exclusively Union taxes. Thus A and D only.",
       "options": [
         "Incorrect: includes land revenue and tolls, which are not exclusively Union taxes.",
@@ -2041,6 +2209,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: agricultural income tax is not a Union-exclusive tax."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-taxes-belonging-to-the-unio--6a8414971f5d254ec9f50217"
+        },
         {
           "label": "Testbook — exact Union tax question",
           "url": "https://testbook.com/question-answer/which-of-the-following-taxes-belonging-to-the-unio--6a8414971f5d254ec9f50217/amp"
@@ -2066,7 +2238,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 113,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The Prime Minister is a public office-holder within the formal political executive, whereas individual citizens, the electorate and political parties are non-official actors who may influence policy-making.",
       "options": [
         "Incorrect: individual citizens are non-official actors.",
@@ -2075,6 +2247,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: the Prime Minister is an official constitutional office-holder."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-is-not-a-non-official-who-b--6a84149860b22386429e78d0"
+        },
         {
           "label": "Public policy actors — standard public administration reference",
           "url": "https://www.google.com/search?q=official+and+non+official+actors+policy+making+prime+minister+electorate+political+parties"
@@ -2096,7 +2272,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 114,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The chairmen map as follows: K. Santhanam—Second Finance Commission (III); Brahmanand Reddy—Sixth (IV); Y. B. Chavan—Eighth (II); C. Rangarajan—Twelfth (I). Therefore A-III, B-IV, C-II, D-I.",
       "options": [
         "Incorrect: the commission numbers for Santhanam, Reddy and Chavan are mismatched.",
@@ -2105,6 +2281,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: A-III, B-IV, C-II, D-I."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i-ch--6a8414987fb08376d6cbb24c"
+        },
         {
           "label": "Finance Commission chairperson chronology",
           "url": "https://www.iassite.com/finance-commission-of-india-upsc/"
@@ -2130,7 +2310,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 115,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Public policy is a purposive course of action, formally authorized, and expresses public goals or the will of the state. The statement that it does not express the will of the state is incorrect.",
       "options": [
         "Correct: public policy is purposive.",
@@ -2139,6 +2319,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: public policy commonly declares or pursues common goals."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-is-not-a-characteristics-of--6a8414ad15917f70d21a9aa7"
+        },
         {
           "label": "Dye — Understanding Public Policy",
           "url": "https://books.google.com/books?q=Thomas+Dye+Understanding+Public+Policy+definition"
@@ -2170,6 +2354,10 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/who-among-the-following-thinkers-describe-job-enri--6a8414a410d48ab39403f7de/amp"
+        },
+        {
           "label": "Testbook — exact UGC NET job-enrichment quotation",
           "url": "https://testbook.com/question-answer/who-among-the-following-thinkers-describe-job-enri--6a8414a410d48ab39403f7de"
         }
@@ -2190,7 +2378,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 117,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Drucker is associated with Management by Objectives, the concept of knowledge workers, and the idea that knowledge workers must learn to manage themselves. He also described management as a liberal art. Thus B, C and D are correct; A is false.",
       "options": [
         "Incorrect: Drucker is widely credited with developing/popularizing Management by Objectives.",
@@ -2199,6 +2387,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: Drucker described management as a liberal art."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-statements-are-correct-abou--6a84148c10d48ab39403f66b/amp"
+        },
         {
           "label": "Harvard Business Review — Managing Oneself",
           "url": "https://hbr.org/2005/01/managing-oneself"
@@ -2224,7 +2416,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 118,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "In Fred W. Riggs' prismatic-sala model, the sala is the administrative subsystem of the prismatic society.",
       "options": [
         "Incorrect: ecology is the broader framework, not the specific sala subsystem.",
@@ -2233,6 +2425,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: sala refers to the administrative subsystem in the prismatic model."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/the-sala-model-is-related-to--6a8414917fb08376d6cbb0b7"
+        },
         {
           "label": "Riggs — Administration in Developing Countries",
           "url": "https://books.google.com/books?q=Riggs+Administration+in+Developing+Countries+sala"
@@ -2254,7 +2450,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 119,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The logical sequence is: identify the research problem (C), review literature (B), formulate the hypothesis (A), collect and analyse data (E), and write the report (D). This is option 3.",
       "options": [
         "Incorrect: places hypothesis and report writing before the research problem and data work.",
@@ -2288,7 +2484,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 120,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The supported chronology is Local Finance Enquiry Committee (1949–51), Taxation Enquiry Commission (1953–54), Rural-Urban Relationship Committee (1963–66), Committee on Budgetary Reform in Municipal Administration (1974), and National Commission on Urbanisation (1985–88): C, B, D, E, A.",
       "options": [
         "Incorrect: places the 1980s National Commission first and reverses earlier committees.",
@@ -2297,6 +2493,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: the 1974 committee and 1985–88 commission are not first."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/arrange-the-following-in-chronological-ordera-na--6a84149c6e24783a19cfb929"
+        },
         {
           "label": "Urban local government committees — chronology",
           "url": "https://www.google.com/search?q=Local+Finance+Enquiry+Committee+Wattal+Taxation+Enquiry+Commission+John+Mathai+Rural+Urban+Relationship+Committee+chronology"
@@ -2322,7 +2522,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 121,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The report numbers are: Unlocking Human Capital—2nd (D); Ethics in Governance—4th (A); Local Governance—6th (E); Combating Terrorism—8th (B); Organisational Structure of Government of India—13th (C). The sequence is D, A, E, B, C.",
       "options": [
         "Correct: D, A, E, B, C follows report numbers 2, 4, 6, 8 and 13.",
@@ -2331,6 +2531,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: places the 13th report first."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/objective-questions/mcq-on-evolution-of-indian-administration--69c5090e245abac0786ac2be"
+        },
         {
           "label": "Testbook — exact Second ARC chronology question",
           "url": "https://testbook.com/question-answer/chronologically-arrange-the-second-administratives--6a8414ad20eeb7cce9ba9440"
@@ -2356,7 +2560,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 122,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Redistributive policies deliberately change the distribution of existing resources, wealth or benefits among groups. The other options confuse regulatory, distributive and constituent policy types.",
       "options": [
         "Incorrect: regulatory policies set rules and constraints, not distribution of new resources.",
@@ -2365,6 +2569,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: constituent policies establish or reorganize institutions and structures, not remove institutions as a defining feature."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-is-correct--6a84149f989b92004f7b2765"
+        },
         {
           "label": "Lowi — policy typologies",
           "url": "https://www.google.com/search?q=Lowi+redistributive+policies+distribution+existing+resources+distributive+regulatory+constituent"
@@ -2386,7 +2594,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 123,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Follett's collected work is Dynamic Administration; Maslow wrote Motivation and Personality; Argyris wrote Personality and Organization; Drucker wrote The Practice of Management. The matching is A-IV, B-III, C-I, D-II.",
       "options": [
         "Incorrect: assigns the works to the wrong authors.",
@@ -2395,6 +2603,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct: A-IV, B-III, C-I, D-II."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i-thinkerlist--6a8414a62301e182be9e558f/amp"
+        },
         {
           "label": "Follett — Dynamic Administration",
           "url": "https://books.google.com/books?q=Mary+Parker+Follett+Dynamic+Administration"
@@ -2428,7 +2640,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 124,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Follett identified domination, compromise and integration as ways of dealing with conflict. Manipulation is not one of her three classic methods.",
       "options": [
         "Incorrect: domination is one of Follett's three methods.",
@@ -2437,6 +2649,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: integration is Follett's preferred constructive method."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/according-to-mary-parker-follett-which-among-the--6a84149754b3eec81d1743dd"
+        },
         {
           "label": "Follett — Constructive Conflict / Dynamic Administration",
           "url": "https://books.google.com/books?q=Mary+Parker+Follett+domination+compromise+integration"
@@ -2458,7 +2674,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 125,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The Industrial Policy Resolution was presented in the Constituent Assembly (Legislative) by Jawaharlal Nehru on 6–7 April 1948. The Nehru Archive preserves the speech and identifies it as Nehru's motion on the Government's industrial policy.",
       "options": [
         "Incorrect: Ambedkar did not present this resolution.",
@@ -2467,6 +2683,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: Patel was not the presenter identified in the Assembly record."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/who-presented-among-the-following-the-resolution--6a84148986bec0a1dc7e8244"
+        },
         {
           "label": "The Nehru Archive — Industrial Policy, 7 April 1948; Constituent Assembly speech",
           "url": "https://nehruarchive.in/documents/industrial-policy-7-april-1948-d2ok4"
@@ -2488,7 +2708,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 126,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The Comptroller and Auditor General's reports relating to Union accounts are examined by the Public Accounts Committee, which scrutinizes government expenditure and audit findings.",
       "options": [
         "Incorrect: Estimates Committee examines estimates and economy, not CAG audit reports in the PAC role.",
@@ -2497,6 +2717,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: departmental standing committees do not replace PAC's constitutional-budgetary audit role."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/the-comptroller-and-auditor-general-of-india-prese--6a8414af2827fb4563bec7af/amp"
+        },
         {
           "label": "Lok Sabha — Public Accounts Committee",
           "url": "https://sansad.in/ls/committees"
@@ -2528,6 +2752,10 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-is-correct-regarding-distri--6a8414a295023b632305139b/amp"
+        },
+        {
           "label": "Testbook — exact UGC NET DDMA question (answer/explanation conflict)",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-correct-regarding-distri--6a8414a295023b632305139b"
         },
@@ -2556,7 +2784,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 128,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The five stages in Quade's sequence are Formulation (B), Search (A), Forecasting (D), Modelling (C), and Evaluation (E). The exact question-specific solution identifies B, A, D, C, E, which is option 2.",
       "options": [
         "Incorrect: puts the stages in the order listed rather than Quade's sequence.",
@@ -2586,7 +2814,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 129,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "A disaster is a serious disruption whose impacts may exceed the affected community's ability to cope using its own resources. Option A reverses this definition by saying a disaster falls within the community's coping capacity. The other statements describe vulnerability, preparedness and human-caused hazards in broadly valid terms.",
       "options": [
         "Correct: this is not correct; the definition is that impacts may exceed the community's coping capacity.",
@@ -2595,6 +2823,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: human activities can cause disasters, and many human-made risks can be mitigated or controlled."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-is-not-correct-regarding-di--6a84149577472744b61cd548"
+        },
         {
           "label": "UN Office for Disaster Risk Reduction — definition of disaster",
           "url": "https://www.undrr.org/terminology/disaster"
@@ -2620,7 +2852,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 130,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Article 155 of the Constitution provides that the Governor of a State shall be appointed by the President by warrant under his hand and seal.",
       "options": [
         "Incorrect: Article 153 provides for Governors of States.",
@@ -2629,6 +2861,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: Article 156 deals with the term of office of the Governor."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-article-stipulates-that-the--6a8414a198dcac77a090396d"
+        },
         {
           "label": "Constitution of India — Article 155",
           "url": "https://legislative.gov.in/constitution-of-india/"
@@ -2650,7 +2886,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 131,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The quotation is attributed to Frank J. Goodnow. It emphasizes that administration must be understood in connection with public law and the legal structure of the state.",
       "options": [
         "Incorrect: this quotation is not attributed to Gulick.",
@@ -2680,7 +2916,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 132,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Atal Vayo Abhyuday Yojana concerns senior citizens; One Stop Centres (Sakhi) support women affected by violence; e-Sanjeevani is the National Telemedicine Service; Tele-MANAS provides tele-mental-health support. The mapping is A-I, B-III, C-II, D-IV.",
       "options": [
         "Correct: all four schemes/services are correctly matched.",
@@ -2689,6 +2925,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: Atal Vayo Abhyuday Yojana is not a telemedicine service."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-ia-atal-vayo-ab--6a84149e20eeb7cce9ba9386/amp"
+        },
         {
           "label": "Ministry of Social Justice — AVYAY",
           "url": "https://socialjustice.gov.in/"
@@ -2722,7 +2962,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 133,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The definition is attributed to Jamil Jreisat. It treats comparative public administration as the comparison of institutions, processes and behaviours across contexts, with context including social values, norms, religion, political culture and the economy.",
       "options": [
         "Incorrect: Karl Deutsch is not the source of this specific definition.",
@@ -2752,7 +2992,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 134,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The major disadvantage stated is that interviews are time-consuming, particularly with large samples and where respondents must be recalled. Options C and D describe advantages of interviews; A is not the stated disadvantage.",
       "options": [
         "Incorrect: this is not the main disadvantage identified in the item.",
@@ -2761,6 +3001,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: obtaining deeper information is an advantage, not a disadvantage."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-is-the-demerit-of-the-inter--6a841491c03132905a3a17e3"
+        },
         {
           "label": "Kothari — Research Methodology",
           "url": "https://books.google.com/books?q=C+R+Kothari+Research+Methodology+interview+time+consuming"
@@ -2782,7 +3026,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 135,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The matches are: Administrative Theories and Politics—Peter Self (II); Policy and Administration—Frank J. Goodnow (III); New Public Administration—H. George Frederickson (I); The Intellectual Crisis in American Public Administration—Vincent Ostrom (IV). Therefore A-II, B-III, C-I, D-IV.",
       "options": [
         "Incorrect: misattributes Administrative Theories and Politics and Policy and Administration.",
@@ -2791,6 +3035,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: assigns Administrative Theories and Politics to Ostrom and The Intellectual Crisis to Goodnow."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i-bo--6a8414a215917f70d21a9a65"
+        },
         {
           "label": "Testbook — exact UGC NET book/author question",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-i-bo--6a8414a215917f70d21a9a65"
@@ -2816,7 +3064,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 136,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Target Base Budgeting is identified in the question-specific reference as Top-Down Budgeting: senior management sets overall spending targets or ceilings before lower-level units prepare detailed allocations.",
       "options": [
         "Correct: Target Base Budgeting is also called Top-Down Budgeting in the cited examination reference.",
@@ -2846,7 +3094,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 137,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Digital-Era Governance emphasizes reintegration, needs-based/holistic services and the use of digital technologies. Statement A is false because it says the approach does not focus on need-oriented services; B, C and D are treated as correct in the question's framing.",
       "options": [
         "Incorrect: A contradicts the citizen-oriented, needs-based service focus.",
@@ -2855,6 +3103,10 @@ const JUNE_2026_QUESTIONS = [
         "Correct in the broad contemporary e-government sense: digital and social platforms can support public service delivery."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-statements-is-correct-about--6a84148f348883f48a8386d6"
+        },
         {
           "label": "Dunleavy et al. — Digital-Era Governance",
           "url": "https://www.google.com/search?q=Dunleavy+Digital-Era+Governance+reintegration+holistic+services+ICT"
@@ -2880,7 +3132,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 138,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "The sequence is source/encoder, message, channel, receiver/decoder, followed by feedback in the interactive Schramm extension: A, E, B, C, D. Feedback is not part of Shannon and Weaver's original one-way mathematical model, so the question combines two related models.",
       "options": [
         "Incorrect: puts channel before the message and feedback before the message.",
@@ -2889,6 +3141,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: starts with feedback and reverses the sender-to-receiver sequence."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/arrange-the-ingredient-of-shannon-and-weaver-and-s--6a84149785c98d3b75efe868"
+        },
         {
           "label": "Shannon and Weaver — The Mathematical Theory of Communication",
           "url": "https://books.google.com/books?q=Shannon+Weaver+Mathematical+Theory+of+Communication"
@@ -2914,7 +3170,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 139,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "A is true: IAS succeeded the ICS after independence. B is consistent with Nehru's criticism of the colonial ICS. C is true: Article 312 provides for All India Services. D is false because All India Services serve both the Union and State governments. E is true for Central Services. Thus A, B, C and E only.",
       "options": [
         "Incorrect: D is false; All India Services serve both Union and States.",
@@ -2923,6 +3179,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: includes D and omits B."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-statements-are-correct-abou--6a8414a9348883f48a838863"
+        },
         {
           "label": "Constitution of India — Article 312",
           "url": "https://legislative.gov.in/constitution-of-india/"
@@ -2948,7 +3208,7 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 140,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
+      "status": "Testbook cross-checked",
       "basis": "Article 148 provides for the CAG's appointment by the President by warrant under his hand and seal. The CAG's salary is equal to that of a Judge of the Supreme Court, not the Chief Justice of India: the CJI has a distinct higher salary. The CAG holds office for six years or until age 65, whichever is earlier. Union government accounts are maintained by the Controller General of Accounts following departmentalisation. Thus A is the sole correct statement.",
       "options": [
         "Correct: Article 148(1) provides for appointment by the President by warrant under his hand and seal.",
@@ -2957,6 +3217,10 @@ const JUNE_2026_QUESTIONS = [
         "Incorrect: Union government accounts are maintained by the Controller General of Accounts, not the CAG."
       ],
       "sources": [
+        {
+          "label": "Testbook — matching question and answer page",
+          "url": "https://testbook.com/question-answer/which-of-the-following-is-correct-about-the-comptr--6a84148815917f70d21a97c5"
+        },
         {
           "label": "Constitution of India — Article 148",
           "url": "https://legislative.gov.in/constitution-of-india/"
