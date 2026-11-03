@@ -77,7 +77,7 @@ function showFeedback(choice){
   const status=document.createElement("p");status.className="analysis-status";status.textContent="Awaiting reliable source check";section.append(status);
   const note=document.createElement("p");note.className="analysis-basis";note.textContent="The correct answer and explanations for all four options will appear here after the question is checked against reliable references.";section.append(note);
   $("feedback").append(section);$("feedback").hidden=false;
-  $("verify").innerHTML=`<b>Check the question yourself</b><a target="_blank" rel="noopener" href="${google(current,"answer explanation sources")}">Search this exact question and all four options on Google ↗</a><a target="_blank" rel="noopener" href="${official(current)}">Search official / academic sources ↗</a><small>No provisional answer is being used for scoring.</small>`;
+  const tbUrl=testbookUrl(current);$("verify").innerHTML=tbUrl?'<b>Check the answer on Testbook</b><a target="_blank" rel="noopener" href="'+tbUrl+'">Open this question on Testbook ↗</a>':'<small>No Testbook question link is available for this item.</small>';
   $("verify").hidden=false;return
  }
  if(answer<0){
