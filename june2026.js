@@ -134,12 +134,12 @@ const JUNE_2026_QUESTIONS = [
     "unit": null,
     "analysis": {
       "status": "Answer supported by primary source — Testbook explanation conflict",
-      "basis": "Testbook's answer heading marks option 3 (Fred N. Kerlinger), while its detailed solution says option 4 (Goode and Hatt). This is a real contradiction on the Testbook page. This quiz follows Testbook's answer heading (option 3). The peer-reviewed source also quotes this wording from Kerlinger's Foundations of Behavioral Research (1986), p. 19. Open the Testbook page to compare its answer heading and detailed solution.",
+      "basis": "Testbook's answer heading marks option 3 (Fred N. Kerlinger), while its detailed solution says option 4 (Goode and Hatt). This is a contradiction within the Testbook page. This quiz follows Testbook's answer heading (option 3). Open the Testbook link to compare its answer heading and detailed solution.",
       "options": [
         "Incorrect: the exact sentence is not attributed to Ranjit Kumar in the cited primary source.",
         "Incorrect: the exact sentence is not attributed to C. R. Kothari in the cited primary source.",
-        "Correct: Fred N. Kerlinger, Foundations of Behavioral Research (1986), p. 19, contains this wording.",
-        "Testbook's detailed solution names Goode and Hatt, but this conflicts with its own answer heading and the peer-reviewed source quoting Kerlinger."
+        "Testbook's marked answer: Fred N. Kerlinger.",
+        "Testbook's detailed solution names Goode and Hatt, contradicting its own answer heading."
       ],
       "sources": [
         {
@@ -1646,11 +1646,11 @@ const JUNE_2026_QUESTIONS = [
     "unit": null,
     "analysis": {
       "status": "Testbook marked answer — detailed explanation conflicts with official French classification",
-      "basis": "Testbook's answer heading marks option 3 (A, B, C and D). This quiz follows that marked Testbook answer. However, Testbook's detailed explanation describes State, Territorial and Hospital as the three branches, and the official French Government source confirms those three branches; the question's options do not cleanly represent that classification. Open the Testbook page to compare its answer heading with its explanation.",
+      "basis": "Testbook marks option 3 (A, B, C and D). This quiz follows that marked answer. Its detailed explanation describes a three-branch classification that does not align cleanly with the listed options. Open the Testbook page to compare its answer heading and explanation.",
       "options": [
         "Incorrect: omits the territorial and hospital public-service branches.",
         "Incorrect: does not give the official three-branch structure and includes Senior Executive Service as a separate branch.",
-        "Testbook's marked answer (A, B, C and D). Note: Testbook's detailed explanation and the official French classification do not align cleanly with the listed options.",
+        "Testbook's marked answer (A, B, C and D); note that its detailed explanation does not align cleanly with the listed options.",
         "Incorrect: omits the State civil service and still does not represent the official three-branch structure."
       ],
       "sources": [
@@ -1676,7 +1676,7 @@ const JUNE_2026_QUESTIONS = [
     "unit": null,
     "analysis": {
       "status": "Testbook marked answer — detailed explanation identifies an omitted committee",
-      "basis": "Testbook's answer heading marks option 2 (A & D Only). This quiz follows that marked Testbook answer. However, Testbook's own detailed explanation also lists the Committee on Public Undertakings (B) among the three main financial committees, making its explanation inconsistent with the marked option. Open the Testbook page to compare both parts.",
+      "basis": "Testbook's answer heading marks option 2 (A & D Only). This quiz follows that marked answer. However, Testbook's own detailed explanation also lists the Committee on Public Undertakings (B) among the main financial committees, making the page internally inconsistent. Open the Testbook page to compare both parts.",
       "options": [
         "Incorrect: this omits the Public Accounts Committee and the Committee on Public Undertakings.",
         "Testbook's marked answer (A & D Only). However, its detailed explanation also identifies Committee on Public Undertakings (B) as a financial committee, so the page is internally inconsistent.",
@@ -1980,11 +1980,11 @@ const JUNE_2026_QUESTIONS = [
     "unit": null,
     "analysis": {
       "status": "Testbook marked answer — academic source gives a different attribution",
-      "basis": "Testbook's answer heading marks option 3 (Robert Golembiewski). This quiz follows that marked Testbook answer. A Tamil Nadu Open University course text attributes the phrase 'the art of reshaping jobs' to Robert N. Ford, who is not among the options. Open both links to compare the differing attributions.",
+      "basis": "Testbook's answer heading marks option 3 (Robert Golembiewski). This quiz follows the marked Testbook answer. Open the Testbook page to read its answer and explanation.",
       "options": [
         "Not supported by the source that attributes the phrase to Robert N. Ford.",
         "Not supported by the source that attributes the phrase to Robert N. Ford.",
-        "Testbook's marked answer (Robert Golembiewski). A Tamil Nadu Open University text instead attributes the exact phrase to Robert N. Ford, who is not listed.",
+        "Testbook's marked answer: Robert Golembiewski.",
         "Not supported by the source that attributes the phrase to Robert N. Ford."
       ],
       "sources": [
@@ -2314,7 +2314,7 @@ const JUNE_2026_QUESTIONS = [
     "unit": null,
     "analysis": {
       "status": "Testbook answer/explanation conflict — option 3 supported by official framework",
-      "basis": "Testbook's page is internally contradictory: its answer heading marks option 3 (District Collector/Deputy Commissioner contacts NDRF), but the detailed solution text says option 2 (DDMAs work under the Zila Pramukh). This quiz follows Testbook's answer heading (option 3). The official disaster-management framework supports option 3; open the Testbook page to compare the answer heading and explanation.",
+      "basis": "Testbook's answer heading marks option 3 (District Collector/Deputy Commissioner contacts NDRF), but its detailed solution says option 2 (DDMAs work under the Zila Pramukh). This quiz follows Testbook's answer heading (option 3). Open the Testbook page to compare the two.",
       "options": [
         "Incorrect: national-level disaster policy is made by NDMA, not the district authority.",
         "Incorrect: the Zila Pramukh is co-chairperson, not the authority under whom the DDMA works. Testbook's detailed solution incorrectly identifies this as the answer.",
