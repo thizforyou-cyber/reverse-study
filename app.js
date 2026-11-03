@@ -38,6 +38,7 @@ function parseMatchQuestion(text){
  return left.length>=2&&right.length>=2?{intro,left,right}:null;
 }
 function parseStatementQuestion(text){const re=/(?:^|\s)([A-E])\.\s*/g;const m=[...text.matchAll(re)];if(/LIST-I|LIST-II/i.test(text)||m.length<3)return null;return {prefix:text.slice(0,m[0].index).trim(),items:m.map((x,i)=>({key:x[1],value:text.slice(x.index+x[0].length,i+1<m.length?m[i+1].index:text.length).trim()}))};}
+function testbookUrl(q){const src=(q.analysis&&q.analysis.sources)||[];const found=src.find(s=>(s.url||"").includes("testbook.com"));return found?found.url:null}
 function renderQuestionContent(q){
  const host=$("question"),data=parseMatchQuestion(q.question),statements=parseStatementQuestion(q.question);host.innerHTML="";
  if(!data&&statements){host.className="qtext statement-question";const p=document.createElement("p");p.className="statement-prompt";p.textContent=statements.prefix;host.append(p);const list=document.createElement("div");list.className="statement-list";statements.items.forEach(item=>{const row=document.createElement("div");row.className="statement-row";const k=document.createElement("b");k.textContent=item.key+".";const v=document.createElement("span");v.textContent=item.value;row.append(k,v);list.append(row)});host.append(list);return}
@@ -64,7 +65,7 @@ function render(){
  index=Math.min(index,visible.length-1);current=visible[index];answered=chosenAnswers.has(idOf(current));$("bookmark").disabled=false;$("review").disabled=false;$("qid").textContent="QUESTION "+current.sourceQuestion;renderQuestionContent(current);$("options").innerHTML="";$("feedback").hidden=true;$("verify").hidden=true;$("next").disabled=index===visible.length-1;$("previous").disabled=index===0;
  $("bookmark").textContent=bookmarks.has(idOf(current))?"★ Bookmarked":"☆ Bookmark";$("review").textContent=reviewSet.has(idOf(current))?"★ Marked for Review":"☆ Mark for Review";
  current.options.forEach((opt,i)=>{const b=document.createElement("button");b.className="option";const lab=document.createElement("span");lab.className="letter";lab.textContent=String.fromCharCode(65+i)+".";b.append(lab);renderOptionContent(b,opt);b.onclick=()=>choose(i);$("options").append(b)});
- $("verify").innerHTML='<b>Want to check this question in detail?</b><a target="_blank" rel="noopener" href="'+google(current,"answer explanation sources")+'">Search this exact question and all four options on Google ↗</a><small>Opens Google in a new tab so you can compare explanations and sources yourself.</small>';$("verify").hidden=false;
+ const tbUrl=testbookUrl(current);$("verify").innerHTML=tbUrl?'<b>Check the answer on Testbook</b><a target="_blank" rel="noopener" href="'+tbUrl+'">Open this question on Testbook ↗</a>':'<small>No Testbook question link is available for this item.</small>';$("verify").hidden=false;
  if(answered){const choice=chosenAnswers.get(idOf(current));[...$("options").children].forEach((b,i)=>{b.disabled=true;if(keyOf(current)>=0){if(i===keyOf(current))b.classList.add("correct");else if(i===choice)b.classList.add("wrong")}});showFeedback(choice)}updateStats();
 }
 function showFeedback(choice){
@@ -95,7 +96,7 @@ function showFeedback(choice){
  }
  const letter=String.fromCharCode(65+answer);
  const pending=analysis&&analysis.status==="Verification pending";
- const testbookMarked=!!(analysis&&/Testbook/i.test(analysis.status));
+ const testbookMarked=!!testbookUrl(current);
  $("feedback").innerHTML=pending
   ?'<h3>Answer key not verified yet</h3><p><b>Provisional answer from the imported key:</b> '+letter+'. '+escapeText(current.options[answer])+'</p><p>This answer has not yet been checked against reliable references. Treat it as tentative, not as a confirmed correct answer.</p>'
   :'<h3>'+(right?"Correct":"Review this one")+'</h3><p><b>'+(testbookMarked?"Testbook's marked answer:":"Answer used for scoring:")+'</b> '+letter+'. '+escapeText(current.options[answer])+'</p>';
@@ -113,16 +114,14 @@ function showFeedback(choice){
    section.append(list)
   }
   if(analysis.sources&&analysis.sources.length){
-   const refs=document.createElement("div");refs.className="analysis-sources";const label=document.createElement("b");label.textContent="References";refs.append(label);
-   analysis.sources.forEach(source=>{const link=document.createElement("a");link.href=source.url;link.target="_blank";link.rel="noopener";link.textContent=source.label+" ↗";refs.append(link)});
+   const refs=document.createElement("div");refs.className="analysis-sources";const label=document.createElement("b");label.textContent="Testbook source";refs.append(label);
+   analysis.sources.filter(source=>(source.url||"").includes("testbook.com")).forEach(source=>{const link=document.createElement("a");link.href=source.url;link.target="_blank";link.rel="noopener";link.textContent="Open original Testbook question ↗";refs.append(link)});
    section.append(refs)
   }
   $("feedback").append(section)
  }
  $("feedback").hidden=false;
- $("verify").innerHTML=pending
-  ?'<b>Check this question yourself</b><a target="_blank" rel="noopener" href="'+google(current,"answer explanation sources")+'">Search the exact question and all four options on Google ↗</a><a target="_blank" rel="noopener" href="'+official(current)+'">Search official / academic sources ↗</a><small>Your selected answer is recorded for practice, but this question is not yet independently verified.</small>'
-  :'<b>Study and verify this question</b><a target="_blank" rel="noopener" href="'+google(current,"concept explanation")+'">Study this question and its related concept ↗</a><a target="_blank" rel="noopener" href="'+official(current)+'">Search official / academic sources ↗</a><small>Only answers explicitly marked independently verified have been checked against the listed references. The imported answer key is not treated as official NTA confirmation.</small>';
+ const tbUrl=testbookUrl(current);$("verify").innerHTML=tbUrl?'<b>Check the answer on Testbook</b><a target="_blank" rel="noopener" href="'+tbUrl+'">Open this question on Testbook ↗</a>':'<small>No Testbook question link is available for this item.</small>';
  $("verify").hidden=false
 }
 function choose(choice){if(answered||!current)return;answered=true;chosenAnswers.set(idOf(current),choice);unattempted.delete(idOf(current));const right=keyOf(current)>=0&&choice===keyOf(current);if(right)correct++;if(keyOf(current)>=0&&!right)mistakes.add(idOf(current));save();[...$("options").children].forEach((b,i)=>{b.disabled=true;if(i===keyOf(current))b.classList.add("correct");else if(i===choice)b.classList.add("wrong")});showFeedback(choice);updateStats()}
