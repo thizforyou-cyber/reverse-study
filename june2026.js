@@ -1487,8 +1487,8 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 100,
     "unit": null,
     "analysis": {
-      "status": "Testbook cross-checked",
-      "basis": "The quotation refers to the unusually concentrated revenue, executive and magisterial authority exercised by the district-level Collector/Deputy Commissioner in colonial India. Among the listed choices, Deputy Commissioner is the matching designation.",
+      "status": "Testbook source could not be independently opened in this audit — answer remains unconfirmed",
+      "basis": "The linked Testbook page could not be retrieved during this audit. The answer shown in the quiz has therefore not been independently reconfirmed from the live Testbook page. Treat it as unconfirmed until the source page can be opened.",
       "options": [
         "Incorrect: the quotation concerns the district-level Collector/Deputy Commissioner, not the divisional supervisory officer.",
         "Correct: the Deputy Commissioner (also known as District Collector/District Magistrate) held the combined authority described.",
@@ -1517,8 +1517,8 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 101,
     "unit": null,
     "analysis": {
-      "status": "Testbook cross-checked",
-      "basis": "The matches are: CVC—Santhanam Committee (IV); Lokayukta—First ARC (III); National Institute of Public Administration—Second ARC (I); Indian Institute of Public Administration—Paul H. Appleby (II). Therefore A-IV, B-III, C-I, D-II.",
+      "status": "Testbook source could not be independently opened in this audit — answer remains unconfirmed",
+      "basis": "The linked Testbook page could not be retrieved during this audit. The answer shown in the quiz has therefore not been independently reconfirmed from the live Testbook page. Treat it as unconfirmed until the source page can be opened.",
       "options": [
         "Incorrect: CVC and Lokayukta are wrongly matched, and the NIPA/IIPA pairing is reversed.",
         "Incorrect: assigns CVC to the First ARC and Lokayukta to Santhanam.",
@@ -1825,8 +1825,8 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 111,
     "unit": null,
     "analysis": {
-      "status": "Testbook cross-checked",
-      "basis": "The correct matches are: George F. Gant—Development Administration: Concepts, Goals, Methods (II); B. Guy Peters—The Politics of Bureaucracy: A Comparative Perspective (III); Ferrel Heady and Sybil Stokes—Papers in Comparative Public Administration (I); F. W. Riggs—Administration in Developing Countries (IV). Therefore A-II, B-III, C-I, D-IV.",
+      "status": "Testbook source could not be independently opened in this audit — answer remains unconfirmed",
+      "basis": "The linked Testbook page could not be retrieved during this audit. The answer shown in the quiz has therefore not been independently reconfirmed from the live Testbook page. Treat it as unconfirmed until the source page can be opened.",
       "options": [
         "Incorrect: mismatches the authors and titles.",
         "Correct: A-II, B-III, C-I, D-IV.",
