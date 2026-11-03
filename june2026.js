@@ -1,4 +1,3 @@
-/* Imported from 2026 JUNE.docx, Q.51-Q.140. Answer keys are independently reviewed where marked; ambiguous/flawed items are flagged. */
 const JUNE_2026_QUESTIONS = [
   {
     "id": "J26-51",
@@ -174,22 +173,26 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 55,
     "unit": null,
     "analysis": {
-      "status": "Testbook answer — conflicting explanation",
-      "basis": "Testbook's answer heading marks option 3 (Fred N. Kerlinger), but the detailed solution on the same page says William J. Goode and Paul K. Hatt (option 4). The website now records Testbook's displayed answer heading, while clearly warning that its explanation conflicts. Do not treat this item as independently settled until Testbook corrects the page.",
+      "status": "Answer supported by primary source — Testbook explanation conflict",
+      "basis": "Testbook's answer heading marks option 3 (Fred N. Kerlinger), while its detailed solution says option 4 (Goode and Hatt). This is a real contradiction on the Testbook page. The exact wording is found in Kerlinger's Foundations of Behavioral Research (1986), p. 19, and is quoted as Kerlinger's in a peer-reviewed article. Therefore option 3 is supported by the primary-source attribution; Testbook's detailed explanation appears to be erroneous. Learn Kerlinger (option 3), but note the Testbook page conflict.",
       "options": [
-        "Incorrect according to Testbook's displayed answer heading.",
-        "Incorrect according to Testbook's displayed answer heading.",
-        "Testbook's answer heading marks Fred N. Kerlinger as correct (option 3).",
-        "Conflict: Testbook's detailed solution names Goode and Hatt, which is option 4, contradicting its answer heading."
+        "Incorrect: the exact sentence is not attributed to Ranjit Kumar in the cited primary source.",
+        "Incorrect: the exact sentence is not attributed to C. R. Kothari in the cited primary source.",
+        "Correct: Fred N. Kerlinger, Foundations of Behavioral Research (1986), p. 19, contains this wording.",
+        "Testbook's detailed solution names Goode and Hatt, but this conflicts with its own answer heading and the peer-reviewed source quoting Kerlinger."
       ],
       "sources": [
         {
-          "label": "Testbook — matching question and answer page",
+          "label": "Testbook — answer heading and contradictory detailed solution",
           "url": "https://testbook.com/question-answer/hypotheses-are-the-problems-behind-the-hypotheses--6a84149321fd595ca6de9d0e"
         },
         {
           "label": "Peer-reviewed article quoting Kerlinger (1986), p. 19",
           "url": "https://www.tandfonline.com/doi/abs/10.1080/00313831.2021.1982765"
+        },
+        {
+          "label": "Google Books / searchable text of Kerlinger — Foundations of Behavioral Research",
+          "url": "https://books.google.com/books?q=Kerlinger+Foundations+of+Behavioral+Research+%22Just+as+important+as+hypotheses%22"
         }
       ]
     }
@@ -839,7 +842,7 @@ const JUNE_2026_QUESTIONS = [
     "unit": null,
     "analysis": {
       "status": "Testbook cross-checked — historical naming note",
-      "basis": "Testbook's exact question marks option 3: C, D, A, E, B. It dates the National Forest Academy to 1938 (as the Indian Forest College), ISTM to 1948, ASCI to 1956, National Academy of Administration to 1959, and NISG to 2002. The later 1987 date often cited for IGNFA refers to its later institutional form/name; the question's wording is broader. The prior edit that changed option 4 was incorrect for matching the Testbook question and has been reverted.",
+      "basis": "Testbook's exact question marks option 3: C, D, A, E, B. The chronology used is: National Forest Academy's predecessor, Indian Forest College (1938); ISTM's predecessor, Secretariat Training School (1948); ASCI (1956); National Academy of Administration (1959); NISG (2002). The 1938 date is the predecessor institution's establishment, not the later IGNFA name. This distinction is important when studying the chronology.",
       "options": [
         "Incorrect: does not follow the establishment chronology used by Testbook.",
         "Incorrect: places NISG and the academies in the wrong order.",
@@ -848,12 +851,28 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — matching question and answer page",
+          "label": "Testbook — exact question, answer and chronology explanation",
           "url": "https://testbook.com/question-answer/arrange-the-following-organizations-in-chronologic--6a8414922827fb4563bec64b"
+        },
+        {
+          "label": "ISTM — official history",
+          "url": "https://istm.gov.in/home/view_details"
         },
         {
           "label": "IGNFA — official institutional history",
           "url": "https://www.ignfa.gov.in/history"
+        },
+        {
+          "label": "ASCI — official website",
+          "url": "https://asci.org.in/?v=1.0.26"
+        },
+        {
+          "label": "LBSNAA — official history",
+          "url": "https://www.lbsnaa.gov.in/menu/history"
+        },
+        {
+          "label": "NISG — official about page",
+          "url": "https://www.nisg.org/about"
         }
       ]
     }
@@ -1995,22 +2014,22 @@ const JUNE_2026_QUESTIONS = [
       "C & D Only",
       "B & C Only"
     ],
-    "answer": 2,
+    "answer": null,
     "set": "June 2026",
     "sourceQuestion": 106,
     "unit": null,
     "analysis": {
-      "status": "Testbook answer — explanation conflict",
-      "basis": "Testbook's exact question page marks option 2 (A & D only). However, its own explanation states that the three financial committees are Estimates Committee, Committee on Public Undertakings, and Public Accounts Committee (A, B and D). The listed options do not contain A, B and D. The website records Testbook's displayed answer for comparison but flags the question as internally inconsistent; do not use it as an unquestioned concept note.",
+      "status": "Flagged — Testbook explanation contradicts its answer; no valid option",
+      "basis": "Testbook marks option 2 (A & D Only), but its own explanation states that three main financial committees are the Estimates Committee (A), Committee on Public Undertakings (B), and Public Accounts Committee (D). The correct set is therefore A, B and D, which is not among the four choices. This question has no valid listed option as written and is excluded from scoring.",
       "options": [
-        "Incorrect according to Testbook's displayed answer.",
-        "Testbook marks A & D only as the answer, but its explanation also identifies B (Committee on Public Undertakings) as a financial committee.",
-        "Incorrect according to Testbook's displayed answer.",
-        "Incorrect according to Testbook's displayed answer."
+        "Incorrect: this omits the Public Accounts Committee and the Committee on Public Undertakings.",
+        "Testbook's displayed answer, but incomplete: its own explanation also identifies the Committee on Public Undertakings (B) as a financial committee.",
+        "Incorrect: this omits the Estimates Committee and does not include the full set.",
+        "Incorrect: this omits the Estimates Committee and Public Accounts Committee."
       ],
       "sources": [
         {
-          "label": "Testbook — matching question and answer page",
+          "label": "Testbook — answer and detailed explanation conflict",
           "url": "https://testbook.com/question-answer/which-committees-exercise-financial-control-on-beh--6a8414ac4094ddbbaeceb79a"
         },
         {
@@ -2733,26 +2752,22 @@ const JUNE_2026_QUESTIONS = [
       "District Collector / Deputy Commissioner contacts with the Nation Disaster Response Force (NDRF) for disaster response.",
       "District Disaster Management Authority does not associate Civil Society in disaster relief operations."
     ],
-    "answer": 2,
+    "answer": 3,
     "set": "June 2026",
     "sourceQuestion": 127,
     "unit": null,
     "analysis": {
-      "status": "Testbook answer — conflicts with official DDMA framework",
-      "basis": "Testbook's exact question page's detailed solution marks option 2 (DDMAs work under the Zila Pramukh). But the Government of India's Disaster Management Manual says the DDMA is headed by the District Collector/Deputy Commissioner, with an elected local-authority representative as co-chair. This directly conflicts with Testbook's marked answer. The website records option 2 only to match Testbook's displayed solution and prominently flags the factual conflict; it should not be learned as settled law.",
+      "status": "Testbook answer/explanation conflict — option 3 supported by official framework",
+      "basis": "Testbook's page is internally contradictory: its answer heading marks option 3 (District Collector/Deputy Commissioner contacts NDRF), but the detailed solution text says option 2 (DDMAs work under the Zila Pramukh). The latter is inconsistent with the Disaster Management framework: the Collector/DM/DC is the DDMA Chairperson and the elected local-authority representative is Co-Chairperson. Government examples also show the Deputy Commissioner/DDMA coordinating NDRF preparedness. Therefore option 3 is the defensible answer; do not memorise Testbook's contradictory explanation.",
       "options": [
-        "Incorrect: national-level policy is not formulated by the DDMA.",
-        "Testbook's detailed solution marks this option, but it conflicts with the Government of India's DDMA framework: the District Collector/Deputy Commissioner chairs the DDMA; the elected local-authority representative is co-chair.",
-        "Testbook's question page describes this as the correct operational statement, but the page's detailed answer conflicts with it. Government examples document Collector/DDMA coordination with NDRF.",
-        "Incorrect: DDMA guidance includes civil society, NGOs and local communities in disaster response."
+        "Incorrect: national-level disaster policy is made by NDMA, not the district authority.",
+        "Incorrect: the Zila Pramukh is co-chairperson, not the authority under whom the DDMA works. Testbook's detailed solution incorrectly identifies this as the answer.",
+        "Correct: the Collector/Deputy Commissioner chairs the DDMA and coordinates district response, including NDRF coordination. This matches Testbook's answer heading and government examples.",
+        "Incorrect: the DDMA framework involves civil society, NGOs and local communities in disaster response."
       ],
       "sources": [
         {
-          "label": "Testbook — matching question and answer page",
-          "url": "https://testbook.com/question-answer/which-of-the-following-is-correct-regarding-distri--6a8414a295023b632305139b/amp"
-        },
-        {
-          "label": "Testbook — matching question and answer page",
+          "label": "Testbook — answer heading and contradictory solution",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-correct-regarding-distri--6a8414a295023b632305139b"
         },
         {
@@ -2762,6 +2777,10 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Government of Ladakh — Deputy Commissioner/DDMA reviews NDRF preparedness",
           "url": "https://ladakh.gov.in/deputy-commissioner-leh-romil-singh-donk-convenes-meeting-on-flash-flood-preparedness/"
+        },
+        {
+          "label": "Government of Sikkim — DDMA/NDRF joint mock drill",
+          "url": "https://www.sikkim.gov.in/media/press-release/press-info?id=133863&name=Press+Release+from+the+District+Disaster+Management+Authority%2C+Gangtok"
         }
       ]
     }
