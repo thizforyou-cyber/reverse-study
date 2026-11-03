@@ -25,18 +25,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i-articles-bo--6a8414abd1638ce652b6d682/amp"
-        },
-        {
-          "label": "Smithsonian Libraries — Papers on the Science of Administration (1937)",
-          "url": "https://www.si.edu/object/papers-science-administration-luther-gulick-l-urwick-james-d-mooney-and-others-edited-luther-gulick%3Asiris_sil_45201"
-        },
-        {
-          "label": "Fayol — General and Industrial Management",
-          "url": "https://books.google.com/books?q=Henri+Fayol+General+and+Industrial+Management"
-        },
-        {
-          "label": "Robert Dahl — The Science of Public Administration: Three Problems",
-          "url": "https://www.google.com/search?q=Robert+Dahl+The+Science+of+Public+Administration+Three+Problems"
         }
       ]
     }
@@ -67,22 +55,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/arrange-the-set-up-of-following-commissions-in-chr--6a84148e54b3eec81d1742c4/amp"
-        },
-        {
-          "label": "National Commission for Women — Brief History",
-          "url": "https://uatncwwomen.digitalindiacorporation.in/about-us/about-the-commission/brief-history/"
-        },
-        {
-          "label": "Government of India Gazette — Commission establishment dates",
-          "url": "https://nih.ayush.gov.in/assets/uploads/pdf/content_en_pdf1745919134.pdf"
-        },
-        {
-          "label": "NHRC — About the Organisation",
-          "url": "https://nhrc.nic.in/about-the-organisation"
-        },
-        {
-          "label": "National Commission for Safai Karamcharis — About NCSK",
-          "url": "https://ncsk.nic.in/api-web-base-about-ncsk"
         }
       ]
     }
@@ -113,14 +85,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-correct-about-cabinet-se--6a8414969c27e5a86776709b"
-        },
-        {
-          "label": "Cabinet Secretariat — Origin",
-          "url": "https://cabsec.gov.in/aboutus/origin"
-        },
-        {
-          "label": "Cabinet Secretariat — official functions",
-          "url": "https://cabsec.nic.in/index.php"
         }
       ]
     }
@@ -151,10 +115,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/consider-the-following-statements-regarding-the-ap--6a84149077472744b61cd505"
-        },
-        {
-          "label": "Drishti IAS — Chief Secretary appointment and tenure",
-          "url": "https://www.drishtiias.com/state-pcs-current-affairs/haryanas-new-chief-secretary-1"
         }
       ]
     }
@@ -185,14 +145,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — answer heading and contradictory detailed solution",
           "url": "https://testbook.com/question-answer/hypotheses-are-the-problems-behind-the-hypotheses--6a84149321fd595ca6de9d0e"
-        },
-        {
-          "label": "Peer-reviewed article quoting Kerlinger (1986), p. 19",
-          "url": "https://www.tandfonline.com/doi/abs/10.1080/00313831.2021.1982765"
-        },
-        {
-          "label": "Google Books / searchable text of Kerlinger — Foundations of Behavioral Research",
-          "url": "https://books.google.com/books?q=Kerlinger+Foundations+of+Behavioral+Research+%22Just+as+important+as+hypotheses%22"
         }
       ]
     }
@@ -223,14 +175,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-statement-is-not-correct-re--6a84148f86bec0a1dc7e82ac"
-        },
-        {
-          "label": "Disaster Management Act, section 3",
-          "url": "https://indiacode.nic.in/"
-        },
-        {
-          "label": "Disaster Management Act, section 47",
-          "url": "https://indiacode.nic.in/"
         }
       ]
     }
@@ -261,10 +205,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-i--6a8414a095023b632305138a"
-        },
-        {
-          "label": "IGNOU eGyanKosh — Public Policy: Implementation System and Models",
-          "url": "https://egyankosh.ac.in/bitstream/123456789/25776/1/Unit-12.pdf"
         }
       ]
     }
@@ -295,14 +235,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-correct-regarding-ce--6a841493b97d1184d20d54ac"
-        },
-        {
-          "label": "Maharashtra Government — Central Social Welfare Board",
-          "url": "https://womenchild.maharashtra.gov.in/en/central-social-welfare-board"
-        },
-        {
-          "label": "Central Social Welfare Board — official website",
-          "url": "https://cswb.gov.in/"
         }
       ]
     }
@@ -333,10 +265,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/who-of-the-following-thinkers-define-public-admin--6a84148d1f0d7a4b63d21aa6/amp"
-        },
-        {
-          "label": "IGNOU e-PG Pathshala — Dwight Waldo on origins of Public Administration",
-          "url": "https://epgp.inflibnet.ac.in/epgpdata/uploads/epgp_content/S000030PU/P001502/M016169/ET/146537027416.ET.Dwight_Waldo-Y.Pardhasarathi.pdf"
         }
       ]
     }
@@ -367,14 +295,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-followings-is-correct-regarding-incre--6a84148b348883f48a838643"
-        },
-        {
-          "label": "Lindblom, The Science of Muddling Through (1959)",
-          "url": "https://gsdm.u-tokyo.ac.jp/file/Lindblom-1959.pdf"
-        },
-        {
-          "label": "Oxford Handbook — The Science of Muddling Through",
-          "url": "https://academic.oup.com/edited-volume/27993/chapter-abstract/211702556"
         }
       ]
     }
@@ -405,10 +325,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-commission-committee-recommended-for-the-s--6a8414b0348883f48a838899"
-        },
-        {
-          "label": "Third Pay Commission report citing the First ARC recommendation",
-          "url": "https://www.cgspublicationindia.com/Pdf/Pay%20Commissions/Third%20Pay%20Commission/3rd%20CPC%20%28Report%2C%20Vol%20I%29.pdf"
         }
       ]
     }
@@ -439,14 +355,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i--6a8414a586bec0a1dc7e83e1"
-        },
-        {
-          "label": "Ministry of Panchayati Raj — Panchayati Raj institutions",
-          "url": "https://panchayat.gov.in/"
-        },
-        {
-          "label": "Ministry of Housing and Urban Affairs — Urban local bodies",
-          "url": "https://mohua.gov.in/"
         }
       ]
     }
@@ -477,14 +385,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i--6a84149ca96c8aa81b7c4b04"
-        },
-        {
-          "label": "Penn State — sampling frame, simple random and cluster sampling definitions",
-          "url": "https://online.stat.psu.edu/stat800/Lesson03"
-        },
-        {
-          "label": "IGNOU — cluster sampling and research design",
-          "url": "https://egyankosh.ac.in/bitstream/123456789/90475/1/Unit-3.pdf"
         }
       ]
     }
@@ -512,10 +412,6 @@ const JUNE_2026_QUESTIONS = [
         "Correct: it retains economic rationality while supplementing it with extra-rational considerations."
       ],
       "sources": [
-        {
-          "label": "Alagappa University — Administrative Thinkers (Dror’s Normative-Optimal Model)",
-          "url": "https://mis.alagappauniversity.ac.in/siteAdmin/dde-admin/uploads/3/__UG_B.A._Public%20Administration%20%28English%29_106%2034%20Administrative%20Thinkers_9840.pdf"
-        },
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-correct-about-normative--6a8414a42301e182be9e556b"
@@ -549,10 +445,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/arrange-the-activities-conducted-by-union-public-s--6a84149620eeb7cce9ba929f"
-        },
-        {
-          "label": "UPSC — Examination structure",
-          "url": "https://cms.upsc.gov.in/about-us/divisions/examination/"
         }
       ]
     }
@@ -583,26 +475,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/arrange-the-following-books-in-chronological-order--6a84149498dcac77a0903929/amp"
-        },
-        {
-          "label": "Taylor — Principles of Scientific Management",
-          "url": "https://books.google.com/books?q=Taylor+Principles+of+Scientific+Management+1911"
-        },
-        {
-          "label": "Barnard — Functions of the Executive",
-          "url": "https://books.google.com/books?q=Chester+Barnard+Functions+of+the+Executive+1938"
-        },
-        {
-          "label": "Simon — Administrative Behavior",
-          "url": "https://books.google.com/books?q=Herbert+Simon+Administrative+Behavior+1947"
-        },
-        {
-          "label": "McGregor — Human Side of Enterprise",
-          "url": "https://books.google.com/books?q=Douglas+McGregor+Human+Side+of+Enterprise+1960"
-        },
-        {
-          "label": "Gaus — Ecology of Public Administration",
-          "url": "https://books.google.com/books?q=John+Gaus+Ecology+of+Public+Administration"
         }
       ]
     }
@@ -633,14 +505,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-statements-about-national-i--6a8414abab431590c84de9b0"
-        },
-        {
-          "label": "NITI Aayog — official overview",
-          "url": "https://www.niti.gov.in/"
-        },
-        {
-          "label": "NITI Aayog — Governing Council",
-          "url": "https://www.niti.gov.in/governing-council"
         }
       ]
     }
@@ -671,10 +535,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/pm-yasasvi-scholarship-is-for-the-students-of-a--6a8414a76b17d2db6bcb0641"
-        },
-        {
-          "label": "Ministry of Social Justice and Empowerment — PM-YASASVI",
-          "url": "https://socialjustice.gov.in/schemes/101"
         }
       ]
     }
@@ -705,14 +565,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-correct-about-the--6a8414a84094ddbbaeceb78c"
-        },
-        {
-          "label": "UN — Public accountability and governance",
-          "url": "https://publicadministration.un.org/"
-        },
-        {
-          "label": "UNESCAP — What is Good Governance?",
-          "url": "https://www.unescap.org/resources/what-good-governance"
         }
       ]
     }
@@ -743,14 +595,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/who-among-the-following-authors-said-politics-has--6a8414a054b3eec81d174429"
-        },
-        {
-          "label": "Goodnow, Politics and Administration (1900) — primary text",
-          "url": "https://teachingamericanhistory.org/document/politics-and-administration/"
-        },
-        {
-          "label": "Google Books — Politics and Administration",
-          "url": "https://books.google.com/books?id=KOkJAAAAIAAJ"
         }
       ]
     }
@@ -781,22 +625,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i-actspolicies--6a84149010d48ab39403f6b8/amp"
-        },
-        {
-          "label": "NIC — About NIC",
-          "url": "https://www.nic.gov.in/"
-        },
-        {
-          "label": "India Code — Information Technology Act, 2000",
-          "url": "https://www.indiacode.nic.in/"
-        },
-        {
-          "label": "MeitY — National e-Governance Plan",
-          "url": "https://www.meity.gov.in/"
-        },
-        {
-          "label": "Digital India — Official portal",
-          "url": "https://www.digitalindia.gov.in/"
         }
       ]
     }
@@ -827,14 +655,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-one-of-the-following-is-not-essential-organs--6a84148885c98d3b75efe7e9/amp"
-        },
-        {
-          "label": "MP-IDSA — Kautilya's Saptanga theory",
-          "url": "https://idsa.in/askanexpert/shashank-mittal-asked-what-is-the-contemporary-relevance-of-kautilyas-saptang-theory"
-        },
-        {
-          "label": "Saptanga theory — academic overview",
-          "url": "https://www.wisdomlib.org/hinduism/essay/matsya-purana-critical-study/d/doc628481.html"
         }
       ]
     }
@@ -865,26 +685,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — exact question, answer and chronology explanation",
           "url": "https://testbook.com/question-answer/arrange-the-following-organizations-in-chronologic--6a8414922827fb4563bec64b"
-        },
-        {
-          "label": "ISTM — official history",
-          "url": "https://istm.gov.in/home/view_details"
-        },
-        {
-          "label": "IGNFA — official institutional history",
-          "url": "https://www.ignfa.gov.in/history"
-        },
-        {
-          "label": "ASCI — official website",
-          "url": "https://asci.org.in/?v=1.0.26"
-        },
-        {
-          "label": "LBSNAA — official history",
-          "url": "https://www.lbsnaa.gov.in/menu/history"
-        },
-        {
-          "label": "NISG — official about page",
-          "url": "https://www.nisg.org/about"
         }
       ]
     }
@@ -915,14 +715,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-a-part-of-policy-eva--6a84149ba96c8aa81b7c4b03"
-        },
-        {
-          "label": "UK Government — Magenta Book: Central Government Guidance on Evaluation",
-          "url": "https://www.gov.uk/government/publications/the-magenta-book/magenta-book-central-government-guidance-on-evaluation-html"
-        },
-        {
-          "label": "UK Government — Evaluating Policy in Government",
-          "url": "https://www.gov.uk/government/publications/guidance-and-resources-for-evaluating-policy-in-government"
         }
       ]
     }
@@ -953,10 +745,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-ilist-iia-artic--6a8414aa77472744b61cd625/amp"
-        },
-        {
-          "label": "Constitution of India — Legislative Department",
-          "url": "https://legislative.gov.in/constitution-of-india/"
         }
       ]
     }
@@ -991,10 +779,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-an-integral-part-of--6a8414b1a96c8aa81b7c4d0d/amp"
-        },
-        {
-          "label": "INFLIBNET — components of a research report",
-          "url": "https://ebooks.inflibnet.ac.in/socp3/chapter/components-of-a-research-report/"
         }
       ]
     }
@@ -1025,10 +809,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/the-national-personnel-authority-npa-is-a-centra--6a8414b077472744b61cd631"
-        },
-        {
-          "label": "Japan National Personnel Authority",
-          "url": "https://www.jinji.go.jp/english/"
         }
       ]
     }
@@ -1059,26 +839,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/arrange-the-following-acts-in-chronological-order--6a8414a92301e182be9e55ba"
-        },
-        {
-          "label": "India Code — Dowry Prohibition Act, 1961",
-          "url": "https://www.indiacode.nic.in/"
-        },
-        {
-          "label": "India Code — Equal Remuneration Act, 1976",
-          "url": "https://www.indiacode.nic.in/"
-        },
-        {
-          "label": "India Code — Commission of Sati (Prevention) Act, 1987",
-          "url": "https://www.indiacode.nic.in/"
-        },
-        {
-          "label": "India Code — PCPNDT Act, 1994",
-          "url": "https://www.indiacode.nic.in/"
-        },
-        {
-          "label": "India Code — Protection of Women from Domestic Violence Act, 2005",
-          "url": "https://www.indiacode.nic.in/"
         }
       ]
     }
@@ -1109,10 +869,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-correct-about-new-public--6a84148ac49d41c108964cf8"
-        },
-        {
-          "label": "Mahatma Gandhi University — Theories and Principles of Public Administration",
-          "url": "https://www.mgu.ac.in/uploads/2020/03/Theories-and-Principles-of-Public-Administration.pdf?x14933="
         }
       ]
     }
@@ -1143,14 +899,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/arrange-the-models-institutions-of-comparative-p--6a8414a86cac6124707965a6"
-        },
-        {
-          "label": "IGNOU eGyanKosh — Comparative Public Administration intellectual developments",
-          "url": "https://egyankosh.ac.in/bitstream/123456789/78071/3/Unit-9.pdf"
-        },
-        {
-          "label": "WorldCat — Prismatic Society Revisited, 1973",
-          "url": "https://search.worldcat.org/title/Prismatic-society-revisited/oclc/4205496"
         }
       ]
     }
@@ -1181,10 +929,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i-ar--6a84148986bec0a1dc7e8248"
-        },
-        {
-          "label": "Constitution of India — Part IX and Part IX-A",
-          "url": "https://legislative.gov.in/constitution-of-india/"
         }
       ]
     }
@@ -1215,10 +959,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-ilist-iia-varia--6a8414922301e182be9e5350/amp"
-        },
-        {
-          "label": "Kerlinger — Foundations of Behavioral Research",
-          "url": "https://books.google.com/books?q=Kerlinger+Foundations+of+Behavioral+Research+variable+hypothesis+theory"
         }
       ]
     }
@@ -1249,14 +989,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/who-among-the-following-thinkers-said-we-don--6a8414905d02c0615f059e81"
-        },
-        {
-          "label": "ERIC — Reinventing Government record",
-          "url": "https://eric.ed.gov/?id=ED378115"
-        },
-        {
-          "label": "Google Books — Reinventing Government by Osborne and Gaebler",
-          "url": "https://books.google.com/books?q=Reinventing+Government+Osborne+Gaebler"
         }
       ]
     }
@@ -1287,14 +1019,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-a-component-of-natio--6a8414992827fb4563bec67b"
-        },
-        {
-          "label": "Department of Personnel and Training — NPCSCB pillars",
-          "url": "https://trgdiv.dopt.gov.in/igotmk/NPCSCB.html"
-        },
-        {
-          "label": "Prime Minister of India — Mission Karmayogi",
-          "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-mission-karmayogi-national-programme-for-civil-services-capacity-building-npcscb/"
         }
       ]
     }
@@ -1325,10 +1049,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/the-contingency-fund-for-india-was-constituted-by--6a84148d1f5d254ec9f50181"
-        },
-        {
-          "label": "India Code — Contingency Fund of India Act, 1950",
-          "url": "https://www.indiacode.nic.in/"
         }
       ]
     }
@@ -1359,14 +1079,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/to-critique-the-current-state-of-public-admi--6a8414acb97d1184d20d564d"
-        },
-        {
-          "label": "Oxford Academic — Minnowbrook III conference and critique of the field",
-          "url": "https://academic.oup.com/jpart/article-abstract/21/suppl_1/i7/911233"
-        },
-        {
-          "label": "Indian Journal of Public Administration — Minnowbrook III",
-          "url": "https://journals.sagepub.com/doi/10.1177/0019556120120402"
         }
       ]
     }
@@ -1397,14 +1109,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-true-about-the-gover--6a8414ae6d3976b0d1abe69d"
-        },
-        {
-          "label": "Constitution of India — Article 200",
-          "url": "https://www.constitutionofindia.net/articles/article-200-assent-to-bills/"
-        },
-        {
-          "label": "Supreme Court of India — 20 November 2025 judgment on Article 200",
-          "url": "https://api.sci.gov.in/supremecourt/2025/39157/39157_2025_1_1501_66169_Judgement_20-Nov-2025.pdf"
         }
       ]
     }
@@ -1435,10 +1139,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/arrange-the-stages-of-budget-enactment-in-the-parl--6a8414a721fd595ca6de9f17"
-        },
-        {
-          "label": "Lok Sabha — Budgetary Process",
-          "url": "https://sansad.in/ls/legislation/budgetary-process"
         }
       ]
     }
@@ -1469,14 +1169,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/in-the-u-s-a-a-programme-for-petitioning-against--6a84148aef3830e4b8058686"
-        },
-        {
-          "label": "The White House — Announces We the People, 1 September 2011",
-          "url": "https://obamawhitehouse.archives.gov/the-press-office/2011/09/01/white-house-announces-we-people"
-        },
-        {
-          "label": "The White House — Petition the White House with We the People, 22 September 2011",
-          "url": "https://obamawhitehouse.archives.gov/blog/2011/09/22/petition-white-house-we-people"
         }
       ]
     }
@@ -1507,14 +1199,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-ilist-iia-socia--6a84149f5bd4ffee7eb5ef2a/amp"
-        },
-        {
-          "label": "IGNOU — social service, social security and social welfare definitions",
-          "url": "https://egyankosh.ac.in/bitstream/123456789/50418/1/Block-3.pdf"
-        },
-        {
-          "label": "International Federation of Social Workers — global definition of social work",
-          "url": "https://www.ifsw.org/what-is-social-work/global-definition-of-social-work/"
         }
       ]
     }
@@ -1545,10 +1229,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/sustainable-development-needsa-to-consider-and--6a84149a10d48ab39403f769/amp"
-        },
-        {
-          "label": "United Nations — report discussing the need to curb wasteful consumerist culture",
-          "url": "https://digitallibrary.un.org/nanna/record/184215/files/E_CN.4_Sub.2_AC.4_1995_4-EN.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0"
         }
       ]
     }
@@ -1579,10 +1259,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/the-independent-regulatory-commissions-are-peculia--6a84148bc562b3dd98ef9b71"
-        },
-        {
-          "label": "US Congressional Research Service — Independent Regulatory Agencies",
-          "url": "https://crsreports.congress.gov/"
         }
       ]
     }
@@ -1613,14 +1289,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-statement-is-correct-about--6a8414945bd4ffee7eb5edc1"
-        },
-        {
-          "label": "International Monetary Fund — public choice theory and utility-maximising actors",
-          "url": "https://www.elibrary.imf.org/display/book/9780939934256/ch002.xml"
-        },
-        {
-          "label": "International Monetary Fund — public choice theory and bureaucratic incentives",
-          "url": "https://www.elibrary.imf.org/view/journals/001/1988/059/article-A001-en.xml"
         }
       ]
     }
@@ -1651,10 +1319,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/in-the-linking-pin-model--6a8414a186bec0a1dc7e8320"
-        },
-        {
-          "label": "Rensis Likert — New Patterns of Management (1961)",
-          "url": "https://books.google.com/books?q=Rensis+Likert+New+Patterns+of+Management+linking+pin"
         }
       ]
     }
@@ -1685,10 +1349,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-committee-made-recommendati--6a8414afdd96b4166cc86f4c"
-        },
-        {
-          "label": "Ministry of Panchayati Raj — Committee recommendations",
-          "url": "https://panchayat.gov.in/"
         }
       ]
     }
@@ -1719,10 +1379,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/arrange-the-following-events-in-chronological-orde--6a84149defea983daab2a2ac"
-        },
-        {
-          "label": "Government of India — Local Self Government history",
-          "url": "https://www.google.com/search?q=Madras+Municipal+Corporation+1688+Mayo+Resolution+1870+Ripon+1882+Royal+Commission+Decentralisation+1907"
         }
       ]
     }
@@ -1753,10 +1409,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/civil-society-was-an-essential-leg-of-the-bou--6a8414b18ecdcc6af968a90b"
-        },
-        {
-          "label": "Gramsci — Selections from the Prison Notebooks (Google Books)",
-          "url": "https://books.google.com/books?q=Gramsci+Selections+from+the+Prison+Notebooks+civil+society"
         }
       ]
     }
@@ -1787,10 +1439,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/arrange-the-sequence-of-steps-of-policy-making-p--6a8414a67ac818de52fd54b8"
-        },
-        {
-          "label": "David Easton — The Political System",
-          "url": "https://books.google.com/books?q=David+Easton+The+Political+System+inputs+outputs+feedback"
         }
       ]
     }
@@ -1821,18 +1469,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/arrange-the-following-commissions-committees-in--6a84149e01ed239cfa60909d/amp"
-        },
-        {
-          "label": "PRS — Police reforms and committee chronology",
-          "url": "https://prsindia.org/"
-        },
-        {
-          "label": "MHA — Police Reforms",
-          "url": "https://www.mha.gov.in/"
-        },
-        {
-          "label": "India Justice Report — Police reform committees",
-          "url": "https://indiajusticereport.org/"
         }
       ]
     }
@@ -1863,10 +1499,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-officer-according-to-macau--6a8414aa54b3eec81d1744e4"
-        },
-        {
-          "label": "INFLIBNET e-PG Pathshala — District administration and Deputy Commissioner",
-          "url": "https://epgp.inflibnet.ac.in/epgpdata/uploads/epgp_content/S000029PE/P001576/M025971/ET/15141857691econtentmodule7.pdf"
         }
       ]
     }
@@ -1901,14 +1533,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-ilist-iia-centr--6a8414a51f5d254ec9f502e9/amp"
-        },
-        {
-          "label": "IIPA — institutional history and Paul H. Appleby",
-          "url": "https://www.iipa.org.in/cms/public/page/gyan"
-        },
-        {
-          "label": "Government/academic source — CVC and Santhanam Committee",
-          "url": "https://ebooks.inflibnet.ac.in/psp01/chapter/institutional-arrangements-for-transparency/"
         }
       ]
     }
@@ -1939,10 +1563,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/when-each-element-in-the-study-population-has-an-e--6a84149bef3830e4b8058851"
-        },
-        {
-          "label": "OpenStax — Sampling methods",
-          "url": "https://openstax.org/books/introductory-statistics/pages/1-2-data-sampling-and-variation-in-data-and-sampling"
         }
       ]
     }
@@ -1977,10 +1597,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-correct-about-whistl--6a84148e21fd595ca6de9d02/amp"
-        },
-        {
-          "label": "Press Information Bureau — Whistle Blowers Protection Act, 2011",
-          "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1555628&lang=2&reg=48"
         }
       ]
     }
@@ -2011,14 +1627,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/read-the-following-provisions-of-constitution-rega--6a84149ac49d41c108964e2f"
-        },
-        {
-          "label": "Constitution of India — Legislative Department",
-          "url": "https://legislative.gov.in/constitution-of-india/"
-        },
-        {
-          "label": "India Code — Constitution provisions",
-          "url": "https://www.indiacode.nic.in/"
         }
       ]
     }
@@ -2049,10 +1657,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/the-french-civil-service-has-more-than-five-millio--6a841499c03132905a3a17fe"
-        },
-        {
-          "label": "French Government — the three branches of the French public service",
-          "url": "https://www.fonction-publique.gouv.fr/devenir-agent-public/choisir-le-service-public/etat-territoriale-hospitaliere-une-fonction-publique-plurielle"
         }
       ]
     }
@@ -2083,10 +1687,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — answer and detailed explanation conflict",
           "url": "https://testbook.com/question-answer/which-committees-exercise-financial-control-on-beh--6a8414ac4094ddbbaeceb79a"
-        },
-        {
-          "label": "Lok Sabha — Parliamentary Committees",
-          "url": "https://sansad.in/ls/committees"
         }
       ]
     }
@@ -2117,10 +1717,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/consider-the-following-statements-regarding-the-ro--6a8414a38ecdcc6af968a898"
-        },
-        {
-          "label": "Constitution of India — Article 164",
-          "url": "https://legislative.gov.in/constitution-of-india/"
         }
       ]
     }
@@ -2151,14 +1747,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/stages-of-data-preparation-process-include-a-edi--6a8414b295023b6323051499"
-        },
-        {
-          "label": "University of Calicut — research data preparation stages",
-          "url": "https://sde.uoc.ac.in/sites/default/files/sde_videos/MCM3C13.pdf"
-        },
-        {
-          "label": "INFLIBNET — editing, coding, classification and tabulation",
-          "url": "https://ebooks.inflibnet.ac.in/hsp16/chapter/processing-operation-editing-coding-classification/"
         }
       ]
     }
@@ -2189,10 +1777,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-statements-are-correct-abou--6a84149da07d2d992db28189/amp"
-        },
-        {
-          "label": "Government of India — Citizen's Charter FAQ",
-          "url": "https://goicharters.nic.in/faq"
         }
       ]
     }
@@ -2223,10 +1807,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/to-the-scientist-theory-refers-to-the-relat--6a84148ce29c872ff332267b"
-        },
-        {
-          "label": "Goode and Hatt — Methods in Social Research",
-          "url": "https://books.google.com/books?q=Goode+Hatt+Methods+in+Social+Research+theory+relationships+between+facts"
         }
       ]
     }
@@ -2257,14 +1837,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i-author-edit--6a8414ae3b16163bc9aaf5a6"
-        },
-        {
-          "label": "SAGE — bibliographic reference to Papers in Comparative Public Administration",
-          "url": "https://journals.sagepub.com/doi/10.1177/009539976900100105"
-        },
-        {
-          "label": "ERIC — bibliographic references to B. Guy Peters and comparative administration texts",
-          "url": "https://files.eric.ed.gov/fulltext/ED295327.pdf"
         }
       ]
     }
@@ -2299,10 +1871,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-taxes-belonging-to-the-unio--6a8414971f5d254ec9f50217/amp"
-        },
-        {
-          "label": "Reserve Bank of India — Union surcharge revenue under Article 271",
-          "url": "https://systemhealth.rbi.org.in/Scripts/PublicationsView.aspx_id%3D22249%281%29.html"
         }
       ]
     }
@@ -2333,10 +1901,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-a-non-official-who-b--6a84149860b22386429e78d0"
-        },
-        {
-          "label": "Public policy actors — standard public administration reference",
-          "url": "https://www.google.com/search?q=official+and+non+official+actors+policy+making+prime+minister+electorate+political+parties"
         }
       ]
     }
@@ -2367,14 +1931,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i-ch--6a8414987fb08376d6cbb24c"
-        },
-        {
-          "label": "Finance Commission chairperson chronology",
-          "url": "https://www.iassite.com/finance-commission-of-india-upsc/"
-        },
-        {
-          "label": "Finance Commission chairpersons and terms",
-          "url": "https://shuunnya.org/learn/shuunnya-notes/indian-polity-notes/45-finance-commission/02-advisory-role"
         }
       ]
     }
@@ -2405,10 +1961,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-a-characteristics-of--6a8414ad15917f70d21a9aa7"
-        },
-        {
-          "label": "Dye — Understanding Public Policy",
-          "url": "https://books.google.com/books?q=Thomas+Dye+Understanding+Public+Policy+definition"
         }
       ]
     }
@@ -2439,10 +1991,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — answer and explanation",
           "url": "https://testbook.com/question-answer/who-among-the-following-thinkers-describe-job-enri--6a8414a410d48ab39403f7de/amp"
-        },
-        {
-          "label": "Tamil Nadu Open University — job enrichment and 'art of reshaping jobs' attributed to Robert N. Ford",
-          "url": "https://tnou.ac.in/eslm/UG/B.A.%20PUBLIC%20ADMINISTRATION/SEM%20II/BPAS%20-%2021.pdf"
         }
       ]
     }
@@ -2473,14 +2021,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-statements-are-correct-abou--6a84148c10d48ab39403f66b/amp"
-        },
-        {
-          "label": "Harvard Business Review — Managing Oneself",
-          "url": "https://hbr.org/2005/01/managing-oneself"
-        },
-        {
-          "label": "Peter Drucker — The Practice of Management",
-          "url": "https://books.google.com/books?q=Peter+Drucker+The+Practice+of+Management"
         }
       ]
     }
@@ -2511,10 +2051,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/the-sala-model-is-related-to--6a8414917fb08376d6cbb0b7"
-        },
-        {
-          "label": "Riggs — Administration in Developing Countries",
-          "url": "https://books.google.com/books?q=Riggs+Administration+in+Developing+Countries+sala"
         }
       ]
     }
@@ -2545,10 +2081,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/arrange-the-following-steps-of-research-processa--6a8414b16cac6124707965c9/amp"
-        },
-        {
-          "label": "Leeds Beckett University — stages in the research process",
-          "url": "https://libguides.leedsbeckett.ac.uk/skills-for-learning/research-skills"
         }
       ]
     }
@@ -2579,14 +2111,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/arrange-the-following-in-chronological-ordera-na--6a84149c6e24783a19cfb929"
-        },
-        {
-          "label": "Urban local government committees — chronology",
-          "url": "https://www.google.com/search?q=Local+Finance+Enquiry+Committee+Wattal+Taxation+Enquiry+Commission+John+Mathai+Rural+Urban+Relationship+Committee+chronology"
-        },
-        {
-          "label": "National Commission on Urbanisation — report",
-          "url": "https://www.google.com/search?q=National+Commission+on+Urbanisation+1985+1988+CM+Correa"
         }
       ]
     }
@@ -2621,10 +2145,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/chronologically-arrange-the-second-administratives--6a8414ad20eeb7cce9ba9440"
-        },
-        {
-          "label": "Second ARC report list and dates",
-          "url": "https://www.pani.org.in/2017/09/2nd-administrative-reforms-commission.html"
         }
       ]
     }
@@ -2655,10 +2175,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-correct--6a84149f989b92004f7b2765"
-        },
-        {
-          "label": "Lowi — policy typologies",
-          "url": "https://www.google.com/search?q=Lowi+redistributive+policies+distribution+existing+resources+distributive+regulatory+constituent"
         }
       ]
     }
@@ -2689,22 +2205,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i-thinkerlist--6a8414a62301e182be9e558f/amp"
-        },
-        {
-          "label": "Follett — Dynamic Administration",
-          "url": "https://books.google.com/books?q=Mary+Parker+Follett+Dynamic+Administration"
-        },
-        {
-          "label": "Maslow — Motivation and Personality",
-          "url": "https://books.google.com/books?q=Abraham+Maslow+Motivation+and+Personality"
-        },
-        {
-          "label": "Argyris — Personality and Organization",
-          "url": "https://books.google.com/books?q=Chris+Argyris+Personality+and+Organization"
-        },
-        {
-          "label": "Drucker — The Practice of Management",
-          "url": "https://books.google.com/books?q=Peter+Drucker+The+Practice+of+Management"
         }
       ]
     }
@@ -2735,10 +2235,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/according-to-mary-parker-follett-which-among-the--6a84149754b3eec81d1743dd"
-        },
-        {
-          "label": "Follett — Constructive Conflict / Dynamic Administration",
-          "url": "https://books.google.com/books?q=Mary+Parker+Follett+domination+compromise+integration"
         }
       ]
     }
@@ -2769,10 +2265,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/who-presented-among-the-following-the-resolution--6a84148986bec0a1dc7e8244"
-        },
-        {
-          "label": "The Nehru Archive — Industrial Policy, 7 April 1948; Constituent Assembly speech",
-          "url": "https://nehruarchive.in/documents/industrial-policy-7-april-1948-d2ok4"
         }
       ]
     }
@@ -2803,10 +2295,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/the-comptroller-and-auditor-general-of-india-prese--6a8414af2827fb4563bec7af/amp"
-        },
-        {
-          "label": "Lok Sabha — Public Accounts Committee",
-          "url": "https://sansad.in/ls/committees"
         }
       ]
     }
@@ -2837,18 +2325,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — answer heading and contradictory solution",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-correct-regarding-distri--6a8414a295023b632305139b"
-        },
-        {
-          "label": "Press Information Bureau — Manual on Disaster Management: DDMA chaired by Collector/DC",
-          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/jul/doc2023722227201.pdf"
-        },
-        {
-          "label": "Government of Ladakh — Deputy Commissioner/DDMA reviews NDRF preparedness",
-          "url": "https://ladakh.gov.in/deputy-commissioner-leh-romil-singh-donk-convenes-meeting-on-flash-flood-preparedness/"
-        },
-        {
-          "label": "Government of Sikkim — DDMA/NDRF joint mock drill",
-          "url": "https://www.sikkim.gov.in/media/press-release/press-info?id=133863&name=Press+Release+from+the+District+Disaster+Management+Authority%2C+Gangtok"
         }
       ]
     }
@@ -2879,14 +2355,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/according-to-edward-s-quade-the-decision-making--6a841495b97d1184d20d54bd"
-        },
-        {
-          "label": "Google Books — Edward S. Quade, Analysis for Public Decisions",
-          "url": "https://books.google.com/books/about/Analysis_for_Public_Decisions.html?id=ywyPAAAAIAAJ"
-        },
-        {
-          "label": "Policy analysis text describing Quade's five stages",
-          "url": "https://studylib.net/doc/28131191/basic-methods-of-policy-analysis-and-planning-26-01-15-00..."
         }
       ]
     }
@@ -2917,14 +2385,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-correct-regarding-di--6a84149577472744b61cd548"
-        },
-        {
-          "label": "UN Office for Disaster Risk Reduction — definition of disaster",
-          "url": "https://www.undrr.org/terminology/disaster"
-        },
-        {
-          "label": "India — National Disaster Management Plan",
-          "url": "https://origin1504-mha.nic.in/sites/default/files/2022-08/National%2520Disaster%2520Management%2520Plan%2520May%25202016%5B1%5D.pdf"
         }
       ]
     }
@@ -2955,10 +2415,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-article-stipulates-that-the--6a8414a198dcac77a090396d"
-        },
-        {
-          "label": "Constitution of India — Article 155",
-          "url": "https://legislative.gov.in/constitution-of-india/"
         }
       ]
     }
@@ -2989,10 +2445,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/among-the-following-authors-who-said-administrat--6a8414a36e24783a19cfba54/amp"
-        },
-        {
-          "label": "MANUU — Public Administration course material quoting the statement",
-          "url": "https://dde.manuu.edu.in/sites/default/files/2021-12/Public%20Administration%20%20Ist%20Sem.pdf"
         }
       ]
     }
@@ -3023,22 +2475,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-ia-atal-vayo-ab--6a84149e20eeb7cce9ba9386/amp"
-        },
-        {
-          "label": "Ministry of Social Justice — AVYAY",
-          "url": "https://socialjustice.gov.in/"
-        },
-        {
-          "label": "Ministry of Women and Child Development — One Stop Centre",
-          "url": "https://wcd.gov.in/"
-        },
-        {
-          "label": "Ministry of Health — e-Sanjeevani",
-          "url": "https://esanjeevani.mohfw.gov.in/"
-        },
-        {
-          "label": "Ministry of Health — Tele-MANAS",
-          "url": "https://telemanas.mohfw.gov.in/"
         }
       ]
     }
@@ -3069,14 +2505,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/who-of-the-following-defined-comparative-pu--6a8414a9c03132905a3a1923"
-        },
-        {
-          "label": "Routledge — Jamil Jreisat, Globalism and Comparative Public Administration",
-          "url": "https://www.routledge.com/Globalism-and-Comparative-Public-Administration-1st-Edition/Jreisat/p/book/9781315093536"
-        },
-        {
-          "label": "IGNOU — comparative public administration and context",
-          "url": "https://egyankosh.ac.in/bitstream/123456789/78068/3/Block-4.pdf"
         }
       ]
     }
@@ -3107,10 +2535,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-the-demerit-of-the-inter--6a841491c03132905a3a17e3"
-        },
-        {
-          "label": "Kothari — Research Methodology",
-          "url": "https://books.google.com/books?q=C+R+Kothari+Research+Methodology+interview+time+consuming"
         }
       ]
     }
@@ -3145,10 +2569,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-i-bo--6a8414a215917f70d21a9a65"
-        },
-        {
-          "label": "University of Hyderabad library catalogue — Peter Self, Administrative Theories and Politics",
-          "url": "https://igmlnet.uohyd.ac.in/chamo/lib/item?copies-sort=2+asc&id=chamo%3A108131&theme=hcu"
         }
       ]
     }
@@ -3179,10 +2599,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/the-target-base-budgeting-is-also-known-as--6a8414a26d3976b0d1abe61f/amp"
-        },
-        {
-          "label": "IGNOU — Target Budgeting / Fixed-Ceiling / Top-Down Budgeting",
-          "url": "https://www.egyankosh.ac.in/bitstream/123456789/76663/1/Unit-6.pdf"
         }
       ]
     }
@@ -3213,14 +2629,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-statements-is-correct-about--6a84148f348883f48a8386d6"
-        },
-        {
-          "label": "Dunleavy et al. — Digital-Era Governance",
-          "url": "https://www.google.com/search?q=Dunleavy+Digital-Era+Governance+reintegration+holistic+services+ICT"
-        },
-        {
-          "label": "OECD — Digital Government",
-          "url": "https://www.oecd.org/gov/digital-government/"
         }
       ]
     }
@@ -3251,14 +2659,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/arrange-the-ingredient-of-shannon-and-weaver-and-s--6a84149785c98d3b75efe868"
-        },
-        {
-          "label": "Shannon and Weaver — The Mathematical Theory of Communication",
-          "url": "https://books.google.com/books?q=Shannon+Weaver+Mathematical+Theory+of+Communication"
-        },
-        {
-          "label": "Schramm — The Process and Effects of Mass Communication",
-          "url": "https://books.google.com/books?q=Wilbur+Schramm+The+Process+and+Effects+of+Mass+Communication"
         }
       ]
     }
@@ -3289,14 +2689,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-statements-are-correct-abou--6a8414a9348883f48a838863"
-        },
-        {
-          "label": "Constitution of India — Article 312",
-          "url": "https://legislative.gov.in/constitution-of-india/"
-        },
-        {
-          "label": "DoPT — All India Services",
-          "url": "https://dopt.gov.in/"
         }
       ]
     }
@@ -3327,18 +2719,6 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-correct-about-the-comptr--6a84148815917f70d21a97c5"
-        },
-        {
-          "label": "Constitution of India — Article 148",
-          "url": "https://legislative.gov.in/constitution-of-india/"
-        },
-        {
-          "label": "CAG — Duties, Powers and Conditions of Service Act, sections 3 and 4",
-          "url": "https://www.cag.gov.in/en/pages/single/3"
-        },
-        {
-          "label": "Controller General of Accounts — Departmentalisation of Accounts",
-          "url": "https://cga.nic.in/"
         }
       ]
     }
