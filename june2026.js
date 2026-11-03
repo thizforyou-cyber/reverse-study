@@ -174,7 +174,7 @@ const JUNE_2026_QUESTIONS = [
     "unit": null,
     "analysis": {
       "status": "Answer supported by primary source — Testbook explanation conflict",
-      "basis": "Testbook's answer heading marks option 3 (Fred N. Kerlinger), while its detailed solution says option 4 (Goode and Hatt). This is a real contradiction on the Testbook page. The exact wording is found in Kerlinger's Foundations of Behavioral Research (1986), p. 19, and is quoted as Kerlinger's in a peer-reviewed article. Therefore option 3 is supported by the primary-source attribution; Testbook's detailed explanation appears to be erroneous. Learn Kerlinger (option 3), but note the Testbook page conflict.",
+      "basis": "Testbook's answer heading marks option 3 (Fred N. Kerlinger), while its detailed solution says option 4 (Goode and Hatt). This is a real contradiction on the Testbook page. This quiz follows Testbook's answer heading (option 3). The peer-reviewed source also quotes this wording from Kerlinger's Foundations of Behavioral Research (1986), p. 19. Open the Testbook page to compare its answer heading and detailed solution.",
       "options": [
         "Incorrect: the exact sentence is not attributed to Ranjit Kumar in the cited primary source.",
         "Incorrect: the exact sentence is not attributed to C. R. Kothari in the cited primary source.",
@@ -2032,17 +2032,17 @@ const JUNE_2026_QUESTIONS = [
       "A, B, C and D Only",
       "B, C, D and E Only"
     ],
-    "answer": null,
+    "answer": 3,
     "set": "June 2026",
     "sourceQuestion": 105,
     "unit": null,
     "analysis": {
-      "status": "Flagged — Testbook explanation conflicts with official French classification",
-      "basis": "Testbook marks option 3 (A, B, C and D), but its own explanation says the French public service has three main branches: State, Territorial and Hospital. The official French Government source confirms these three branches and the hospital service is not explicitly listed in the question's options. Testbook's explanation also says the hospital service is part of the five-million total while not being a separate option. The options therefore do not accurately represent the official three-branch classification. This item is excluded from scoring until the wording/options are corrected.",
+      "status": "Testbook marked answer — detailed explanation conflicts with official French classification",
+      "basis": "Testbook's answer heading marks option 3 (A, B, C and D). This quiz follows that marked Testbook answer. However, Testbook's detailed explanation describes State, Territorial and Hospital as the three branches, and the official French Government source confirms those three branches; the question's options do not cleanly represent that classification. Open the Testbook page to compare its answer heading with its explanation.",
       "options": [
         "Incorrect: omits the territorial and hospital public-service branches.",
         "Incorrect: does not give the official three-branch structure and includes Senior Executive Service as a separate branch.",
-        "Testbook's marked answer, but it does not match the official three-branch classification because the hospital civil service is missing and judiciary is not one of the three branches.",
+        "Testbook's marked answer (A, B, C and D). Note: Testbook's detailed explanation and the official French classification do not align cleanly with the listed options.",
         "Incorrect: omits the State civil service and still does not represent the official three-branch structure."
       ],
       "sources": [
@@ -2066,16 +2066,16 @@ const JUNE_2026_QUESTIONS = [
       "C & D Only",
       "B & C Only"
     ],
-    "answer": null,
+    "answer": 2,
     "set": "June 2026",
     "sourceQuestion": 106,
     "unit": null,
     "analysis": {
-      "status": "Flagged — Testbook explanation contradicts its answer; no valid option",
-      "basis": "Testbook marks option 2 (A & D Only), but its own explanation states that three main financial committees are the Estimates Committee (A), Committee on Public Undertakings (B), and Public Accounts Committee (D). The correct set is therefore A, B and D, which is not among the four choices. This question has no valid listed option as written and is excluded from scoring.",
+      "status": "Testbook marked answer — detailed explanation identifies an omitted committee",
+      "basis": "Testbook's answer heading marks option 2 (A & D Only). This quiz follows that marked Testbook answer. However, Testbook's own detailed explanation also lists the Committee on Public Undertakings (B) among the three main financial committees, making its explanation inconsistent with the marked option. Open the Testbook page to compare both parts.",
       "options": [
         "Incorrect: this omits the Public Accounts Committee and the Committee on Public Undertakings.",
-        "Testbook's displayed answer, but incomplete: its own explanation also identifies the Committee on Public Undertakings (B) as a financial committee.",
+        "Testbook's marked answer (A & D Only). However, its detailed explanation also identifies Committee on Public Undertakings (B) as a financial committee, so the page is internally inconsistent.",
         "Incorrect: this omits the Estimates Committee and does not include the full set.",
         "Incorrect: this omits the Estimates Committee and Public Accounts Committee."
       ],
@@ -2422,17 +2422,17 @@ const JUNE_2026_QUESTIONS = [
       "Robert Golembiewski",
       "Ferrel Heady"
     ],
-    "answer": null,
+    "answer": 3,
     "set": "June 2026",
     "sourceQuestion": 116,
     "unit": null,
     "analysis": {
-      "status": "Flagged — Testbook answer conflicts with academic source; no listed option confirmed",
-      "basis": "Testbook marks option 3 (Robert Golembiewski). However, a university course text attributes the exact phrase 'the art of reshaping jobs' to Robert N. Ford, who is not among the options. Since the phrase's attribution conflicts with Testbook and the cited academic source names a person absent from the options, this question should not be scored as settled.",
+      "status": "Testbook marked answer — academic source gives a different attribution",
+      "basis": "Testbook's answer heading marks option 3 (Robert Golembiewski). This quiz follows that marked Testbook answer. A Tamil Nadu Open University course text attributes the phrase 'the art of reshaping jobs' to Robert N. Ford, who is not among the options. Open both links to compare the differing attributions.",
       "options": [
         "Not supported by the source that attributes the phrase to Robert N. Ford.",
         "Not supported by the source that attributes the phrase to Robert N. Ford.",
-        "Testbook's marked answer, but the university text attributes the exact phrase to Robert N. Ford instead.",
+        "Testbook's marked answer (Robert Golembiewski). A Tamil Nadu Open University text instead attributes the exact phrase to Robert N. Ford, who is not listed.",
         "Not supported by the source that attributes the phrase to Robert N. Ford."
       ],
       "sources": [
@@ -2826,7 +2826,7 @@ const JUNE_2026_QUESTIONS = [
     "unit": null,
     "analysis": {
       "status": "Testbook answer/explanation conflict — option 3 supported by official framework",
-      "basis": "Testbook's page is internally contradictory: its answer heading marks option 3 (District Collector/Deputy Commissioner contacts NDRF), but the detailed solution text says option 2 (DDMAs work under the Zila Pramukh). The latter is inconsistent with the Disaster Management framework: the Collector/DM/DC is the DDMA Chairperson and the elected local-authority representative is Co-Chairperson. Government examples also show the Deputy Commissioner/DDMA coordinating NDRF preparedness. Therefore option 3 is the defensible answer; do not memorise Testbook's contradictory explanation.",
+      "basis": "Testbook's page is internally contradictory: its answer heading marks option 3 (District Collector/Deputy Commissioner contacts NDRF), but the detailed solution text says option 2 (DDMAs work under the Zila Pramukh). This quiz follows Testbook's answer heading (option 3). The official disaster-management framework supports option 3; open the Testbook page to compare the answer heading and explanation.",
       "options": [
         "Incorrect: national-level disaster policy is made by NDMA, not the district authority.",
         "Incorrect: the Zila Pramukh is co-chairperson, not the authority under whom the DDMA works. Testbook's detailed solution incorrectly identifies this as the answer.",
