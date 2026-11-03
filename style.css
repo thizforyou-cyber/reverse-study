@@ -69,3 +69,6 @@
 .question-menu .navigator-legend span{display:flex;align-items:center;gap:5px}
 .question-menu .legend-dot{width:8px;height:8px;border-radius:50%;display:inline-block}
 @media(max-width:560px){.question-menu-wrap{min-width:0;width:100%}.question-menu{left:0;right:auto;width:100%}.question-menu .question-number-grid{grid-template-columns:repeat(5,minmax(0,1fr))}}
+
+
+.option-analysis{margin-top:16px;padding-top:14px;border-top:1px solid var(--line)}.option-analysis h4{margin:0 0 8px;color:var(--green);font:800 14px Manrope,sans-serif}.analysis-status{display:inline-block;margin:0 0 8px;padding:5px 8px;border-radius:5px;background:#edf2e9;color:#315b42;font-size:10px;font-weight:800}.analysis-basis{font-size:12px;line-height:1.6;margin:4px 0 10px}.analysis-options{padding-left:22px;margin:8px 0;display:grid;gap:8px}.analysis-options li{font-size:12px;line-height:1.55;padding-left:3px}.analysis-sources{display:flex;flex-direction:column;gap:6px;margin-top:12px}.analysis-sources b{font-size:11px;color:var(--green)}.analysis-sources a{font-size:11px;color:#315f49;text-decoration:none;font-weight:700}.analysis-sources a:hover{text-decoration:underline}
