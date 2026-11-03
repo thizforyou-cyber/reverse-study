@@ -333,6 +333,10 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/who-of-the-following-thinkers-define-public-admin--6a84148d1f0d7a4b63d21aa6/amp"
+        },
+        {
+          "label": "IGNOU e-PG Pathshala — Dwight Waldo on origins of Public Administration",
+          "url": "https://epgp.inflibnet.ac.in/epgpdata/uploads/epgp_content/S000030PU/P001502/M016169/ET/146537027416.ET.Dwight_Waldo-Y.Pardhasarathi.pdf"
         }
       ]
     }
@@ -473,6 +477,14 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i--6a84149ca96c8aa81b7c4b04"
+        },
+        {
+          "label": "Penn State — sampling frame, simple random and cluster sampling definitions",
+          "url": "https://online.stat.psu.edu/stat800/Lesson03"
+        },
+        {
+          "label": "IGNOU — cluster sampling and research design",
+          "url": "https://egyankosh.ac.in/bitstream/123456789/90475/1/Unit-3.pdf"
         }
       ]
     }
@@ -979,6 +991,10 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-an-integral-part-of--6a8414b1a96c8aa81b7c4d0d/amp"
+        },
+        {
+          "label": "INFLIBNET — components of a research report",
+          "url": "https://ebooks.inflibnet.ac.in/socp3/chapter/components-of-a-research-report/"
         }
       ]
     }
@@ -1343,6 +1359,14 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/to-critique-the-current-state-of-public-admi--6a8414acb97d1184d20d564d"
+        },
+        {
+          "label": "Oxford Academic — Minnowbrook III conference and critique of the field",
+          "url": "https://academic.oup.com/jpart/article-abstract/21/suppl_1/i7/911233"
+        },
+        {
+          "label": "Indian Journal of Public Administration — Minnowbrook III",
+          "url": "https://journals.sagepub.com/doi/10.1177/0019556120120402"
         }
       ]
     }
@@ -1483,6 +1507,14 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-ilist-iia-socia--6a84149f5bd4ffee7eb5ef2a/amp"
+        },
+        {
+          "label": "IGNOU — social service, social security and social welfare definitions",
+          "url": "https://egyankosh.ac.in/bitstream/123456789/50418/1/Block-3.pdf"
+        },
+        {
+          "label": "International Federation of Social Workers — global definition of social work",
+          "url": "https://www.ifsw.org/what-is-social-work/global-definition-of-social-work/"
         }
       ]
     }
@@ -1513,6 +1545,10 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/sustainable-development-needsa-to-consider-and--6a84149a10d48ab39403f769/amp"
+        },
+        {
+          "label": "United Nations — report discussing the need to curb wasteful consumerist culture",
+          "url": "https://digitallibrary.un.org/nanna/record/184215/files/E_CN.4_Sub.2_AC.4_1995_4-EN.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0"
         }
       ]
     }
@@ -1577,6 +1613,14 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-statement-is-correct-about--6a8414945bd4ffee7eb5edc1"
+        },
+        {
+          "label": "International Monetary Fund — public choice theory and utility-maximising actors",
+          "url": "https://www.elibrary.imf.org/display/book/9780939934256/ch002.xml"
+        },
+        {
+          "label": "International Monetary Fund — public choice theory and bureaucratic incentives",
+          "url": "https://www.elibrary.imf.org/view/journals/001/1988/059/article-A001-en.xml"
         }
       ]
     }
@@ -1933,6 +1977,10 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/which-of-the-following-is-not-correct-about-whistl--6a84148e21fd595ca6de9d02/amp"
+        },
+        {
+          "label": "Press Information Bureau — Whistle Blowers Protection Act, 2011",
+          "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1555628&lang=2&reg=48"
         }
       ]
     }
@@ -1984,23 +2032,27 @@ const JUNE_2026_QUESTIONS = [
       "A, B, C and D Only",
       "B, C, D and E Only"
     ],
-    "answer": 3,
+    "answer": null,
     "set": "June 2026",
     "sourceQuestion": 105,
     "unit": null,
     "analysis": {
-      "status": "Testbook cross-checked",
-      "basis": "The original option wording is restored to match the exact Testbook question: E is Senior Executive Service, not Hospital Civil Service. Testbook marks A, B, C and D only (option 3). The earlier edit that replaced E with Hospital Civil Service changed the question and was incorrect for matching the Testbook paper.",
+      "status": "Flagged — Testbook explanation conflicts with official French classification",
+      "basis": "Testbook marks option 3 (A, B, C and D), but its own explanation says the French public service has three main branches: State, Territorial and Hospital. The official French Government source confirms these three branches and the hospital service is not explicitly listed in the question's options. Testbook's explanation also says the hospital service is part of the five-million total while not being a separate option. The options therefore do not accurately represent the official three-branch classification. This item is excluded from scoring until the wording/options are corrected.",
       "options": [
-        "Incorrect: omits C and D and includes E.",
-        "Incorrect: omits A and B and includes E.",
-        "Correct according to Testbook: A, B, C and D only.",
-        "Incorrect: omits A and includes E."
+        "Incorrect: omits the territorial and hospital public-service branches.",
+        "Incorrect: does not give the official three-branch structure and includes Senior Executive Service as a separate branch.",
+        "Testbook's marked answer, but it does not match the official three-branch classification because the hospital civil service is missing and judiciary is not one of the three branches.",
+        "Incorrect: omits the State civil service and still does not represent the official three-branch structure."
       ],
       "sources": [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/the-french-civil-service-has-more-than-five-millio--6a841499c03132905a3a17fe"
+        },
+        {
+          "label": "French Government — the three branches of the French public service",
+          "url": "https://www.fonction-publique.gouv.fr/devenir-agent-public/choisir-le-service-public/etat-territoriale-hospitaliere-une-fonction-publique-plurielle"
         }
       ]
     }
@@ -2099,6 +2151,14 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/stages-of-data-preparation-process-include-a-edi--6a8414b295023b6323051499"
+        },
+        {
+          "label": "University of Calicut — research data preparation stages",
+          "url": "https://sde.uoc.ac.in/sites/default/files/sde_videos/MCM3C13.pdf"
+        },
+        {
+          "label": "INFLIBNET — editing, coding, classification and tabulation",
+          "url": "https://ebooks.inflibnet.ac.in/hsp16/chapter/processing-operation-editing-coding-classification/"
         }
       ]
     }
@@ -2197,6 +2257,14 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i-author-edit--6a8414ae3b16163bc9aaf5a6"
+        },
+        {
+          "label": "SAGE — bibliographic reference to Papers in Comparative Public Administration",
+          "url": "https://journals.sagepub.com/doi/10.1177/009539976900100105"
+        },
+        {
+          "label": "ERIC — bibliographic references to B. Guy Peters and comparative administration texts",
+          "url": "https://files.eric.ed.gov/fulltext/ED295327.pdf"
         }
       ]
     }
@@ -2354,27 +2422,27 @@ const JUNE_2026_QUESTIONS = [
       "Robert Golembiewski",
       "Ferrel Heady"
     ],
-    "answer": 3,
+    "answer": null,
     "set": "June 2026",
     "sourceQuestion": 116,
     "unit": null,
     "analysis": {
-      "status": "Testbook cross-checked — corrected answer",
-      "basis": "Testbook's exact UGC NET question identifies Robert Golembiewski as the thinker who described job enrichment as 'the art of reshaping job'. The earlier answer, Frederick Herzberg (option 2), was not the answer given on the matching Testbook page. Herzberg is strongly associated with job enrichment generally, which likely caused the confusion.",
+      "status": "Flagged — Testbook answer conflicts with academic source; no listed option confirmed",
+      "basis": "Testbook marks option 3 (Robert Golembiewski). However, a university course text attributes the exact phrase 'the art of reshaping jobs' to Robert N. Ford, who is not among the options. Since the phrase's attribution conflicts with Testbook and the cited academic source names a person absent from the options, this question should not be scored as settled.",
       "options": [
-        "Incorrect: Victor Vroom is associated with expectancy theory.",
-        "Incorrect for this quotation: Herzberg is associated with job enrichment generally, but Testbook attributes this wording to Golembiewski.",
-        "Correct according to Testbook: Robert Golembiewski.",
-        "Incorrect: Ferrel Heady is associated with comparative public administration."
+        "Not supported by the source that attributes the phrase to Robert N. Ford.",
+        "Not supported by the source that attributes the phrase to Robert N. Ford.",
+        "Testbook's marked answer, but the university text attributes the exact phrase to Robert N. Ford instead.",
+        "Not supported by the source that attributes the phrase to Robert N. Ford."
       ],
       "sources": [
         {
-          "label": "Testbook — matching question and answer page",
+          "label": "Testbook — answer and explanation",
           "url": "https://testbook.com/question-answer/who-among-the-following-thinkers-describe-job-enri--6a8414a410d48ab39403f7de/amp"
         },
         {
-          "label": "Testbook — matching question and answer page",
-          "url": "https://testbook.com/question-answer/who-among-the-following-thinkers-describe-job-enri--6a8414a410d48ab39403f7de"
+          "label": "Tamil Nadu Open University — job enrichment and 'art of reshaping jobs' attributed to Robert N. Ford",
+          "url": "https://tnou.ac.in/eslm/UG/B.A.%20PUBLIC%20ADMINISTRATION/SEM%20II/BPAS%20-%2021.pdf"
         }
       ]
     }
@@ -2811,6 +2879,14 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/according-to-edward-s-quade-the-decision-making--6a841495b97d1184d20d54bd"
+        },
+        {
+          "label": "Google Books — Edward S. Quade, Analysis for Public Decisions",
+          "url": "https://books.google.com/books/about/Analysis_for_Public_Decisions.html?id=ywyPAAAAIAAJ"
+        },
+        {
+          "label": "Policy analysis text describing Quade's five stages",
+          "url": "https://studylib.net/doc/28131191/basic-methods-of-policy-analysis-and-planning-26-01-15-00..."
         }
       ]
     }
@@ -2913,6 +2989,10 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/among-the-following-authors-who-said-administrat--6a8414a36e24783a19cfba54/amp"
+        },
+        {
+          "label": "MANUU — Public Administration course material quoting the statement",
+          "url": "https://dde.manuu.edu.in/sites/default/files/2021-12/Public%20Administration%20%20Ist%20Sem.pdf"
         }
       ]
     }
@@ -2989,6 +3069,14 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/who-of-the-following-defined-comparative-pu--6a8414a9c03132905a3a1923"
+        },
+        {
+          "label": "Routledge — Jamil Jreisat, Globalism and Comparative Public Administration",
+          "url": "https://www.routledge.com/Globalism-and-Comparative-Public-Administration-1st-Edition/Jreisat/p/book/9781315093536"
+        },
+        {
+          "label": "IGNOU — comparative public administration and context",
+          "url": "https://egyankosh.ac.in/bitstream/123456789/78068/3/Block-4.pdf"
         }
       ]
     }
@@ -3091,6 +3179,10 @@ const JUNE_2026_QUESTIONS = [
         {
           "label": "Testbook — matching question and answer page",
           "url": "https://testbook.com/question-answer/the-target-base-budgeting-is-also-known-as--6a8414a26d3976b0d1abe61f/amp"
+        },
+        {
+          "label": "IGNOU — Target Budgeting / Fixed-Ceiling / Top-Down Budgeting",
+          "url": "https://www.egyankosh.ac.in/bitstream/123456789/76663/1/Unit-6.pdf"
         }
       ]
     }
