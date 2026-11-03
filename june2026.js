@@ -1,7 +1,7 @@
 const JUNE_2026_QUESTIONS = [
   {
     "id": "J26-51",
-    "question": "Match the LIST-I with LIST-II LIST-I (Articles / Books) A. General and Industrial Management B. Papers on the Science of Administration C. The Science of Administration: Three Problems D. Reflections on Public Administration LIST-II (Authors) I. Robert Dahl II. Henri Fayol III. John M. Gaus IV. Gullick and Urwick",
+    "question": "Match the LIST-I with LIST-II LIST-I (Articles / Books) A. General and Industrial Management B. Papers on the Science of Administration C. The Science of Public Administration: Three Problems D. Reflections on Public Administration LIST-II (Authors) I. Robert Dahl II. Henri Fayol III. John M. Gaus IV. Gullick and Urwick",
     "options": [
       "A-II, B-IV, C-I, D-III",
       "A-I, B-III, C-II, D-IV",
@@ -203,8 +203,8 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — matching question and answer page",
-          "url": "https://testbook.com/question-answer/match-the-list-i-with-list-i--6a8414a095023b632305138a"
+          "label": "Testbook — exact question, answer and detailed solution",
+          "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-ilist-iia-top-d--6a8414a095023b632305138a"
         }
       ]
     }
@@ -1645,17 +1645,17 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 105,
     "unit": null,
     "analysis": {
-      "status": "Testbook marked answer — detailed explanation conflicts with official French classification",
-      "basis": "Testbook marks option 3 (A, B, C and D). This quiz follows that marked answer. Its detailed explanation describes a three-branch classification that does not align cleanly with the listed options. Open the Testbook page to compare its answer heading and explanation.",
+      "status": "Testbook marked answer confirmed; explanation notes an additional hospital-service branch",
+      "basis": "Testbook marks Option 3 (A, B, C and D Only), and its detailed solution repeats that answer. The explanation identifies State Civil Service, Territorial Civil Service, public administration establishments and Judiciary as the listed groups. It also notes that Hospital Civil Service is another major branch but is not included as a separate option, so the page's wording about the full five-million workforce is not perfectly exhaustive.",
       "options": [
-        "Incorrect: omits the territorial and hospital public-service branches.",
-        "Incorrect: does not give the official three-branch structure and includes Senior Executive Service as a separate branch.",
-        "Testbook's marked answer (A, B, C and D); note that its detailed explanation does not align cleanly with the listed options.",
-        "Incorrect: omits the State civil service and still does not represent the official three-branch structure."
+        "Incorrect: this omits the territorial civil service and public administration establishments.",
+        "Incorrect: this omits the state civil service and judiciary.",
+        "Correct: Testbook's marked answer and detailed solution both give A, B, C and D Only. Testbook separately notes the Hospital Civil Service as another major branch not listed among the options.",
+        "Incorrect: this omits the state civil service and includes Senior Executive Service as a separate branch."
       ],
       "sources": [
         {
-          "label": "Testbook — matching question and answer page",
+          "label": "Testbook — marked answer and detailed solution",
           "url": "https://testbook.com/question-answer/the-french-civil-service-has-more-than-five-millio--6a841499c03132905a3a17fe"
         }
       ]
@@ -1795,13 +1795,13 @@ const JUNE_2026_QUESTIONS = [
     "sourceQuestion": 110,
     "unit": null,
     "analysis": {
-      "status": "Testbook cross-checked",
-      "basis": "The quotation is attributed to William J. Goode and Paul K. Hatt in Methods in Social Research, where theory is described in terms of relationships among facts and their meaningful ordering.",
+      "status": "Testbook option spelling differs from its detailed solution",
+      "basis": "Testbook's marked answer is Option 4. Its option text spells the names as “William J. Goods and Paul K. Halt,” while the detailed solution identifies the authors as William J. Goode and Paul K. Hatt. The quiz retains the option wording shown by Testbook and clarifies the spelling in the explanation.",
       "options": [
         "Incorrect: Ram Ahuja is not the source of this wording.",
         "Incorrect: R.A. Fisher is known for statistical theory and experimental design, not this formulation.",
         "Incorrect: John W. Creswell is not the source of this quotation.",
-        "Correct: William J. Goode and Paul K. Hatt."
+        "Correct: Testbook marks Option 4. Its option contains spelling errors; the detailed solution gives the authors' names as William J. Goode and Paul K. Hatt."
       ],
       "sources": [
         {
@@ -2139,11 +2139,7 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — matching question and answer page",
-          "url": "https://testbook.com/objective-questions/mcq-on-evolution-of-indian-administration--69c5090e245abac0786ac2be"
-        },
-        {
-          "label": "Testbook — matching question and answer page",
+          "label": "Testbook — exact question, answer and report-number explanation",
           "url": "https://testbook.com/question-answer/chronologically-arrange-the-second-administratives--6a8414ad20eeb7cce9ba9440"
         }
       ]
@@ -2473,8 +2469,8 @@ const JUNE_2026_QUESTIONS = [
       ],
       "sources": [
         {
-          "label": "Testbook — matching question and answer page",
-          "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-ia-atal-vayo-ab--6a84149e20eeb7cce9ba9386/amp"
+          "label": "Testbook — exact question, answer and detailed solution",
+          "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-ia-atal-vayo-ab--6a84149e20eeb7cce9ba9386"
         }
       ]
     }
