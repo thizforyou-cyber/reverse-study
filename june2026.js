@@ -128,22 +128,22 @@ const JUNE_2026_QUESTIONS = [
       "Fred N. Kerlinger",
       "William J. Goods and Paul K. Hatt."
     ],
-    "answer": 3,
+    "answer": 4,
     "set": "June 2026",
     "sourceQuestion": 55,
     "unit": null,
     "analysis": {
-      "status": "Answer supported by primary source — Testbook explanation conflict",
-      "basis": "Testbook's answer heading marks option 3 (Fred N. Kerlinger), while its detailed solution says option 4 (Goode and Hatt). This is a contradiction within the Testbook page. This quiz follows Testbook's answer heading (option 3). Open the Testbook link to compare its answer heading and detailed solution.",
+      "status": "Answer confirmed from Testbook",
+      "basis": "Testbook marks option 4 (William J. Goode and Paul K. Hatt) as the answer, and its detailed solution also confirms option 4. The page's additional information distinguishes Fred N. Kerlinger's definition of a hypothesis from the attribution asked in this question.",
       "options": [
-        "Incorrect: the exact sentence is not attributed to Ranjit Kumar in the cited primary source.",
-        "Incorrect: the exact sentence is not attributed to C. R. Kothari in the cited primary source.",
-        "Testbook's marked answer: Fred N. Kerlinger.",
-        "Testbook's detailed solution names Goode and Hatt, contradicting its own answer heading."
+        "Incorrect: Testbook does not attribute the quoted statement to Ranjit Kumar.",
+        "Incorrect: Testbook does not attribute the quoted statement to C. R. Kothari.",
+        "Incorrect: Testbook's additional information describes Kerlinger's definition of a hypothesis, but does not attribute this quoted statement to him.",
+        "Correct: Testbook identifies William J. Goode and Paul K. Hatt as the answer and repeats this in its detailed solution."
       ],
       "sources": [
         {
-          "label": "Testbook — answer heading and contradictory detailed solution",
+          "label": "Testbook — marked answer and detailed solution",
           "url": "https://testbook.com/question-answer/hypotheses-are-the-problems-behind-the-hypotheses--6a84149321fd595ca6de9d0e"
         }
       ]
