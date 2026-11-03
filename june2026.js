@@ -417,27 +417,23 @@ const JUNE_2026_QUESTIONS = [
       "A-IV, B-III, C-II, D-I",
       "A-III, B-IV, C-I, D-II"
     ],
-    "answer": 4,
+    "answer": 3,
     "set": "June 2026",
     "sourceQuestion": 63,
     "unit": null,
     "analysis": {
-      "status": "Independently verified",
-      "basis": "Cluster sampling divides a population into smaller groups or clusters (IV); a sample is the selected subset/number of units (III); sample design is the procedure for selecting the sample (II); and a sampling frame is the list of population units (I). The correct sequence is A-IV, B-III, C-II, D-I, option 3.",
+      "status": "Testbook cross-checked — corrected answer",
+      "basis": "Testbook's exact question page marks option 3: A-IV, B-III, C-II, D-I. Cluster sampling divides the population into clusters; sample size is the number of items selected; sample design is the procedure for selecting a sample; sampling frame is the list of population elements.",
       "options": [
-        "Incorrect: cluster sampling is not the list of all population units.",
-        "Incorrect: sample design and cluster sampling are mismatched.",
-        "Correct: A-IV, B-III, C-II, D-I.",
-        "Incorrect: the sample and cluster sampling definitions are reversed."
+        "Incorrect: all four definitions are mismatched.",
+        "Incorrect: cluster sampling and sample design are mismatched.",
+        "Correct according to Testbook: A-IV, B-III, C-II, D-I.",
+        "Incorrect: sample and sampling-frame definitions are mismatched."
       ],
       "sources": [
         {
-          "label": "OpenStax — Sampling and data collection",
-          "url": "https://openstax.org/books/introductory-statistics/pages/1-1-definitions-of-statistics-probability-and-key-terms"
-        },
-        {
-          "label": "FAO — Sampling methods and sampling frames",
-          "url": "https://www.fao.org/4/x5684e/x5684e04.htm"
+          "label": "Testbook — exact UGC NET sampling terminology question",
+          "url": "https://testbook.com/question-answer/match-the-list-i-with-list-iilist-i--6a84149ca96c8aa81b7c4b04"
         }
       ]
     }
