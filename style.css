@@ -114,3 +114,28 @@
  .feedback p,.analysis-basis,.analysis-options li{font-size:13px;line-height:1.75}
  .analysis-sources a,.verify a{font-size:12px;overflow-wrap:anywhere}
 }
+
+
+/* Final readability pass: keep every question and answer easy to scan */
+.question-card{max-width:100%;line-height:1.75}
+.qtext,.statement-prompt,.match-instruction{font-weight:700;text-wrap:pretty}
+.qtext{font-size:clamp(20px,2.35vw,23px);line-height:1.8;overflow-wrap:break-word}
+.option{width:100%;font-size:17px;line-height:1.8;letter-spacing:.005em;overflow-wrap:anywhere;word-break:normal}
+.option .letter{flex-shrink:0}
+.option:not(.pair-option){text-align:left}
+.option:focus-visible{outline:3px solid #8a642b;outline-offset:3px}
+.pair-label{font-size:11px;line-height:1.5}
+.pair-grid{gap:8px}
+.pair-chip{font-size:13px;line-height:1.5;padding:7px 10px}
+.statement-row{font-size:16px;line-height:1.8}
+.match-cell{font-size:16px;line-height:1.8}
+.analysis-options li,.analysis-basis,.feedback p{font-size:15px;line-height:1.8}
+.analysis-sources a,.verify a{font-size:14px;line-height:1.7}
+@media(max-width:560px){
+ .qtext{font-size:19px;line-height:1.8}
+ .option{font-size:16px;line-height:1.8;padding:15px 13px;gap:11px}
+ .option .letter{flex-basis:27px;min-height:29px}
+ .statement-row,.match-cell{font-size:15px;line-height:1.8}
+ .pair-chip{font-size:12px}
+ .analysis-options li,.analysis-basis,.feedback p{font-size:14px;line-height:1.8}
+}
